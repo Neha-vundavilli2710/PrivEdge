@@ -1,0 +1,665 @@
+query,privacy_score,sensitivity_score,complexity_score,risk_score,latency_score,human_required,query_length,contains_pii,domain,route,template_id
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for Java.",0.02,0.0,0.693,0.05,0.2,0,14,0,general,cloud,15
+Fast answer please: define Java.,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,50
+Should this patient stop treatment and switch to a different drug?,0.65,0.65,0.071,0.9,0.2,1,11,0,medical,human,55
+Analyze my bank transaction history and my income for the last year.,0.75,0.7,0.195,0.25,0.2,0,12,0,financial,edge,44
+Quick: what is HTTP status codes?,0.02,0.0,0.022,0.05,0.85,0,6,0,general,edge,47
+tl;dr the French Revolution?,0.02,0.0,0.045,0.05,0.85,0,4,0,general,edge,51
+My SSN is 934-60-1653. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Explain REST APIs with an example.,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,2
+Brainstorm five project ideas involving React hooks.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,8
+My SSN is 251-76-5725. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+My SSN is 439-21-2542. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Review this restricted payroll spreadsheet and summarize it.,1.0,1.0,0.18,0.05,0.2,0,8,0,general,edge,31
+Brainstorm five project ideas involving the water cycle.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,8
+Should this patient undergo this medical procedure? Please answer quickly.,0.55,0.55,0.037,0.9,0.85,1,10,0,medical,human,53
+"urgent, one line on SQL joins",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,52
+Explain how to optimize the throughput and latency of a database-backed application built around TCP vs UDP.,0.02,0.0,0.584,0.05,0.2,0,17,0,general,cloud,14
+Give me a beginner summary of REST APIs.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,3
+What does HIPAA stand for?,0.02,0.0,0.019,0.05,0.45,0,5,0,general,cloud,24
+"Compare the trade-offs of microservices and a monolith for a system using Git branching, considering scalability and deployment.",0.02,0.0,0.578,0.05,0.2,0,18,0,general,cloud,13
+tl;dr the water cycle?,0.02,0.0,0.045,0.05,0.85,0,4,0,general,edge,51
+Explain HTTP status codes with an example.,0.02,0.0,0.146,0.05,0.2,0,7,0,general,cloud,2
+What is the difference between HTML and cloud computing?,0.02,0.0,0.184,0.05,0.2,0,9,0,general,cloud,9
+What is photosynthesis?,0.02,0.0,0.011,0.05,0.45,0,3,0,general,cloud,1
+My account number is 41098574426. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+explain what a contract is in simple terms.,0.02,0.0,0.15,0.35,0.2,0,8,0,legal,cloud,18
+Compare the water cycle and the Pythagorean theorem.,0.02,0.0,0.18,0.05,0.2,0,8,0,general,cloud,7
+My email is user278794@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Summarize the key concepts of Python for an exam.,0.02,0.0,0.154,0.05,0.2,0,9,0,general,cloud,10
+My SSN is 435-31-5202. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Analyze this private employee salary report and find anomalies.,0.9,0.9,0.184,0.25,0.2,0,9,0,financial,edge,29
+Card number 2780 8185 8198 3651 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Resolve this ethical dilemma and decide for us. Please answer quickly.,0.02,0.0,0.071,0.8,0.85,1,11,0,general,human,74
+Why is cloud computing important?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,11
+What is linked lists?,0.02,0.0,0.015,0.05,0.45,0,4,0,general,cloud,1
+Compare quantum computing and linked lists.,0.02,0.0,0.172,0.05,0.45,0,6,0,general,cloud,7
+Explain Docker with an example.,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,2
+My name is Ananya Rao and my email is user492901@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+Should we proceed with surgery for the diagnosis?,0.55,0.55,0.03,0.9,0.2,1,8,0,medical,human,57
+Should I invest my entire savings in this stock? It affects a lot of people.,0.02,0.0,0.056,0.8,0.2,1,15,0,financial,human,63
+Why is machine learning important?,0.02,0.0,0.219,0.05,0.45,0,5,0,general,cloud,11
+What are the main advantages of TCP vs UDP?,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,5
+"Briefly, what is sorting algorithms? asap",0.02,0.0,0.133,0.05,0.85,0,6,0,general,edge,48
+explain what an employee handbook usually contains.,0.02,0.0,0.146,0.25,0.2,0,7,0,hr,cloud,22
+Explain how to optimize the throughput and latency of a database-backed application built around recursion.,0.02,0.0,0.576,0.05,0.2,0,15,0,general,cloud,14
+Quick: what is linked lists?,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,47
+"Briefly, what is object-oriented programming? asap",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,48
+What are the main advantages of quantum computing?,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,5
+Fast answer please: define SQL joins.,0.02,0.0,0.022,0.05,0.85,0,6,0,general,edge,50
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for React hooks.",0.02,0.0,0.696,0.05,0.2,0,15,0,general,cloud,15
+How does cloud computing work?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,4
+Is this legal document safe to sign?,0.02,0.0,0.026,0.9,0.2,1,7,0,legal,human,58
+tl;dr SQL joins?,0.02,0.0,0.041,0.05,0.85,0,3,0,general,edge,51
+Is this legal document safe to sign? Please answer quickly.,0.02,0.0,0.037,0.9,0.85,1,10,0,legal,human,58
+Summarize this confidential compensation report for me.,0.9,0.9,0.146,0.05,0.2,0,7,0,general,edge,27
+Urgent: Should we sign this agreement given the liability clauses?,0.02,0.0,0.037,0.9,0.85,1,10,0,legal,human,60
+Design a distributed fault-tolerant architecture for a large-scale recursion platform.,0.02,0.0,0.587,0.05,0.2,0,10,0,general,cloud,12
+"urgent, one line on CSS flexbox",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,52
+What are the main advantages of HTML?,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,5
+Card number 3427 5550 3178 5430 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Is it legal to terminate this contract early? Decide for me. It affects a lot of people.,0.02,0.0,0.064,0.9,0.2,1,17,0,legal,human,61
+Design a distributed fault-tolerant architecture for a large-scale cloud computing platform.,0.02,0.0,0.591,0.05,0.2,0,11,0,general,cloud,12
+My name is Sara Khan and my email is user220213@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+What is the difference between cloud computing and binary search?,0.02,0.0,0.188,0.05,0.2,0,10,0,general,cloud,9
+How does photosynthesis work?,0.02,0.0,0.135,0.05,0.45,0,4,0,general,cloud,4
+Analyze this confidential trade secret document.,0.85,0.85,0.142,0.05,0.45,0,6,0,general,edge,26
+Write a short lesson plan about Git branching.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,6
+What is object-oriented programming?,0.02,0.0,0.015,0.05,0.45,0,4,0,general,cloud,1
+"In a sentence, explain quantum computing.",0.02,0.0,0.172,0.05,0.85,0,6,0,general,edge,49
+My account number is 35054197042. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+what does hipaa stand for?,0.02,0.0,0.019,0.05,0.45,0,5,0,general,cloud,24
+What is cloud computing?,0.02,0.0,0.015,0.05,0.45,0,4,0,general,cloud,1
+My email is user468900@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Summarize this confidential payroll spreadsheet for me.,0.9,0.9,0.146,0.05,0.2,0,7,0,general,edge,27
+Brainstorm five project ideas involving sorting algorithms.,0.02,0.0,0.106,0.05,0.2,0,7,0,general,cloud,8
+Summarize this confidential board meeting minutes for me.,0.75,0.75,0.15,0.05,0.2,0,8,0,general,edge,27
+What is the difference between machine learning and Java?,0.02,0.0,0.264,0.05,0.2,0,9,0,general,cloud,9
+How does Docker work?,0.02,0.0,0.135,0.05,0.45,0,4,0,general,cloud,4
+My SSN is 920-54-8515. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Give me a beginner summary of Git branching.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,3
+what is a mortgage?,0.02,0.0,0.015,0.25,0.45,0,4,0,financial,cloud,23
+"This is a life-or-death situation, I need your professional judgment now. It affects a lot of people.",0.02,0.0,0.094,0.65,0.2,1,17,0,general,human,71
+"In a sentence, explain recursion.",0.02,0.0,0.169,0.05,0.85,0,5,0,general,edge,49
+Should I take a mortgage on this property? Decide for me. Please answer quickly.,0.02,0.0,0.052,0.8,0.85,1,14,0,financial,human,65
+My email is user688933@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Please review our internal employee performance data and list the key issues.,0.02,0.0,0.195,0.25,0.2,0,12,0,hr,edge,28
+Urgent: Should I invest my entire savings in this stock?,0.02,0.0,0.037,0.8,0.85,1,10,0,financial,human,63
+My name is Ananya Rao and my email is user575279@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+"Briefly, what is binary search? asap",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,48
+My Aadhaar number is 8364 7187 3182. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+My account number is 10925921574. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+Analyze this private compensation report and find anomalies.,0.9,0.9,0.18,0.05,0.2,0,8,0,general,edge,29
+What is Python?,0.02,0.0,0.011,0.05,0.45,0,3,0,general,cloud,1
+"My employee ID is EMP213697 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+"My employee ID is EMP134455 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+My email is user950360@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+What is the difference between JavaScript closures and REST APIs?,0.02,0.0,0.188,0.05,0.2,0,10,0,general,cloud,9
+My account number is 80822261346. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+Please review our internal company financial report and list the key issues.,0.55,0.5,0.195,0.25,0.2,0,12,0,financial,edge,28
+Should I take this medication together with my current prescription? It affects a lot of people.,0.7,0.65,0.06,0.9,0.2,1,16,0,medical,human,54
+Should I invest my entire savings in the stock?,0.02,0.0,0.034,0.8,0.2,1,9,0,financial,human,63
+Summarize the key concepts of Java for an exam.,0.02,0.0,0.154,0.05,0.2,0,9,0,general,cloud,10
+Why is SQL joins important?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,11
+Analyze this confidential customer list.,0.75,0.75,0.139,0.05,0.45,0,5,0,general,edge,26
+What is the difference between linked lists and the French Revolution?,0.02,0.0,0.191,0.05,0.2,0,11,0,general,cloud,9
+My account number is 10559866461. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+Summarize the key concepts of binary search for an exam.,0.02,0.0,0.158,0.05,0.2,0,10,0,general,cloud,10
+how do banks work?,0.02,0.0,0.135,0.25,0.45,0,4,0,financial,cloud,20
+tl;dr TCP vs UDP?,0.02,0.0,0.045,0.05,0.85,0,4,0,general,edge,51
+"My employee ID is EMP898395 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+Analyze this private payroll spreadsheet and find anomalies.,1.0,1.0,0.18,0.05,0.2,0,8,0,general,edge,29
+Should we lay off the team based on the review?,0.02,0.0,0.158,0.2,0.2,0,10,0,general,human,69
+This is a critical decision; make the call for us. It affects a lot of people.,0.02,0.0,0.09,0.8,0.2,1,16,0,general,human,75
+Card number 3016 1347 1729 2684 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Urgent: Should this patient stop treatment and switch to a different drug?,0.65,0.65,0.075,0.9,0.85,1,12,0,medical,human,55
+Please review our internal compensation report and list the key issues.,0.55,0.5,0.191,0.05,0.2,0,11,0,general,edge,28
+My patient records are private. Summarize the diagnosis history in this file.,1.0,1.0,0.165,0.35,0.2,0,12,0,medical,edge,41
+Should we terminate the employee after the performance review?,0.02,0.0,0.154,0.8,0.2,1,9,0,hr,human,67
+"Compare the trade-offs of microservices and a monolith for a system using Python, considering scalability and deployment.",0.02,0.0,0.574,0.05,0.2,0,17,0,general,cloud,13
+Review this restricted merger plan and summarize it.,0.75,0.75,0.18,0.05,0.2,0,8,0,general,edge,31
+Make a high-stakes professional decision for this case. It affects a lot of people.,0.02,0.0,0.052,0.8,0.2,1,14,0,general,human,70
+Why is HTML important?,0.02,0.0,0.135,0.05,0.45,0,4,0,general,cloud,11
+Please review our internal internal audit report and list the key issues.,0.02,0.0,0.195,0.25,0.2,0,12,0,financial,edge,28
+Explain Git branching with an example.,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,2
+Write a short lesson plan about Python.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,6
+My Aadhaar number is 1329 3774 1171. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+Design a distributed fault-tolerant architecture for a large-scale machine learning platform.,0.02,0.0,0.591,0.05,0.2,0,11,0,general,cloud,12
+My SSN is 794-46-5467. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Analyze this private merger plan and find anomalies.,0.75,0.75,0.18,0.05,0.2,0,8,0,general,edge,29
+My SSN is 827-69-9518. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Help me budget using my salary and account balances.,0.65,0.6,0.064,0.25,0.2,0,9,0,financial,edge,46
+Resolve this ethical dilemma and decide for us. It affects a lot of people.,0.02,0.0,0.082,0.8,0.2,1,14,0,general,human,74
+Urgent: Should we approve this promotion or fire the employee? Decide.,0.02,0.0,0.291,0.8,0.85,1,11,0,hr,human,68
+"Briefly, what is recursion? asap",0.02,0.0,0.049,0.05,0.85,0,5,0,general,edge,48
+"My phone number is 9675444604, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+what is diabetes?,0.02,0.0,0.011,0.05,0.45,0,3,0,general,cloud,16
+Should we declare bankruptcy given the portfolio?,0.02,0.0,0.026,0.8,0.2,1,7,0,financial,human,66
+Analyze this private employee performance data and find anomalies.,0.75,0.75,0.184,0.25,0.2,0,9,0,hr,edge,29
+"Briefly, what is SQL joins? asap",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,48
+What are the main advantages of Java?,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,5
+What is the difference between binary search and object-oriented programming?,0.02,0.0,0.188,0.05,0.2,0,10,0,general,cloud,9
+Summarize this confidential employee performance data for me.,0.75,0.75,0.15,0.25,0.2,0,8,0,hr,edge,27
+Summarize this confidential trade secret document for me.,0.85,0.85,0.15,0.05,0.2,0,8,0,general,edge,27
+Compare Docker and SQL joins.,0.02,0.0,0.169,0.05,0.45,0,5,0,general,cloud,7
+"My phone number is 9360767346, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Design a distributed fault-tolerant architecture for a large-scale inflation platform.,0.02,0.0,0.587,0.05,0.2,0,10,0,general,cloud,12
+Should we approve this loan for the company given the audit findings? Please answer quickly.,0.5,0.5,0.306,0.8,0.85,1,15,0,financial,human,64
+"My phone number is 9208908082, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Evaluate this high-stakes professional decision and tell me what to do. Please answer quickly.,0.02,0.0,0.082,0.8,0.85,1,14,0,general,human,73
+Card number 1748 1787 6154 2527 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Give legal advice on whether I should proceed. It affects a lot of people.,0.02,0.0,0.052,0.95,0.2,1,14,0,legal,human,72
+"My employee ID is EMP927607 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+Brainstorm five project ideas involving Docker.,0.02,0.0,0.022,0.05,0.45,0,6,0,general,cloud,8
+What is the difference between TCP vs UDP and Java?,0.02,0.0,0.188,0.05,0.2,0,10,0,general,cloud,9
+Fast answer please: define JavaScript closures.,0.02,0.0,0.022,0.05,0.85,0,6,0,general,edge,50
+"My employee ID is EMP960607 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+What are the main advantages of linked lists?,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,5
+Why is TCP vs UDP important?,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,11
+My account number is 75508202394. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+My Aadhaar number is 9316 4690 6738. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+Urgent: Evaluate this high-stakes professional decision and tell me what to do.,0.02,0.0,0.075,0.8,0.85,1,12,0,general,human,73
+Explain CSS flexbox with an example.,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,2
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for the Pythagorean theorem.",0.02,0.0,0.7,0.05,0.2,0,16,0,general,cloud,15
+What is sorting algorithms?,0.02,0.0,0.095,0.05,0.45,0,4,0,general,cloud,1
+Explain how to optimize the throughput and latency of a database-backed application built around linked lists.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+"urgent, one line on inflation",0.02,0.0,0.049,0.05,0.85,0,5,0,general,edge,52
+"Compare the trade-offs of microservices and a monolith for a system using Docker, considering scalability and deployment.",0.02,0.0,0.574,0.05,0.2,0,17,0,general,cloud,13
+Compare React hooks and the Pythagorean theorem.,0.02,0.0,0.176,0.05,0.2,0,7,0,general,cloud,7
+"My employee ID is EMP583646 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+What is a mortgage?,0.02,0.0,0.015,0.25,0.45,0,4,0,financial,cloud,23
+Urgent: Should we approve this loan for the company given the audit findings?,0.5,0.5,0.299,0.8,0.85,1,13,0,financial,human,64
+Should we lay off the team based on this review? Please answer quickly.,0.02,0.0,0.169,0.2,0.85,0,13,0,general,human,69
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for Python.",0.02,0.0,0.693,0.05,0.2,0,14,0,general,cloud,15
+"My phone number is 9630334421, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+What is the difference between React hooks and JavaScript closures?,0.02,0.0,0.188,0.05,0.2,0,10,0,general,cloud,9
+Fast answer please: define recursion.,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,50
+Analyze this confidential compensation report.,0.9,0.9,0.139,0.05,0.45,0,5,0,general,edge,26
+Should we terminate this employee after the performance review? It affects a lot of people.,0.02,0.0,0.176,0.8,0.2,1,15,0,hr,human,67
+Should we approve this loan for the company given the audit findings? It affects a lot of people.,0.5,0.5,0.318,0.8,0.2,1,18,0,financial,human,64
+My name is Rahul Sharma and my email is user828531@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+How does sorting algorithms work?,0.02,0.0,0.219,0.05,0.45,0,5,0,general,cloud,4
+Should I take a mortgage on this property? Decide for me.,0.02,0.0,0.041,0.8,0.2,1,11,0,financial,human,65
+Analyze this private health record and list the medications mentioned.,1.0,1.0,0.188,0.35,0.2,0,10,0,medical,edge,42
+Here is our proprietary merger plan. Extract the main points.,0.8,0.75,0.037,0.05,0.2,0,10,0,general,edge,30
+Brainstorm five project ideas involving binary search.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,8
+My SSN is 996-38-8214. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+"My phone number is 9544770805, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Resolve this ethical dilemma and decide for us.,0.02,0.0,0.06,0.8,0.2,1,8,0,general,human,74
+How does the Pythagorean theorem work?,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,4
+Give me a beginner summary of HTML.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,3
+Please review our internal trade secret document and list the key issues.,0.8,0.75,0.195,0.05,0.2,0,12,0,general,edge,28
+"My employee ID is EMP503575 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+Card number 6623 7176 7252 8159 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+This is a critical decision; make the call for us.,0.02,0.0,0.068,0.8,0.2,1,10,0,general,human,75
+Please review our internal customer list and list the key issues.,0.02,0.0,0.191,0.05,0.2,0,11,0,general,edge,28
+Summarize this confidential company financial report for me.,0.9,0.9,0.15,0.25,0.2,0,8,0,financial,edge,27
+tl;dr inflation?,0.02,0.0,0.037,0.05,0.85,0,2,0,general,edge,51
+Urgent: Should we lay off the team based on this review?,0.02,0.0,0.161,0.2,0.85,0,11,0,general,human,69
+Analyze this private internal audit report and find anomalies.,0.75,0.75,0.184,0.25,0.2,0,9,0,financial,edge,29
+Why is Git branching important?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,11
+Compare photosynthesis and quantum computing.,0.02,0.0,0.169,0.05,0.45,0,5,0,general,cloud,7
+Give legal advice on whether I should proceed.,0.02,0.0,0.03,0.95,0.2,1,8,0,legal,human,72
+Summarize our medical records and lab results privately.,0.02,0.0,0.18,0.05,0.2,0,8,0,general,edge,40
+Summarize this patient treatment history document for our notes.,0.7,0.65,0.154,0.35,0.2,0,9,0,medical,edge,43
+Should we approve this promotion or fire the employee? Decide. It affects a lot of people.,0.02,0.0,0.31,0.8,0.2,1,16,0,hr,human,68
+Review this restricted internal audit report and summarize it.,0.75,0.75,0.184,0.25,0.2,0,9,0,financial,edge,31
+Review this restricted compensation report and summarize it.,0.9,0.9,0.18,0.05,0.2,0,8,0,general,edge,31
+Should we sign this agreement given the liability clauses? It affects a lot of people.,0.02,0.0,0.056,0.9,0.2,1,15,0,legal,human,60
+Design a distributed fault-tolerant architecture for a large-scale HTTP status codes platform.,0.02,0.0,0.595,0.05,0.2,0,12,0,general,cloud,12
+"My phone number is 9117959560, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Evaluate this high-stakes professional decision and tell me what to do.,0.02,0.0,0.071,0.8,0.2,1,11,0,general,human,73
+What is compound interest?,0.02,0.0,0.015,0.05,0.45,0,4,0,general,cloud,19
+Should I take this medication together with my current prescription? Please answer quickly.,0.7,0.65,0.049,0.9,0.85,1,13,0,medical,human,54
+Explain how to optimize the throughput and latency of a database-backed application built around object-oriented programming.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+Compare recursion and machine learning.,0.02,0.0,0.249,0.05,0.45,0,5,0,general,cloud,7
+"Compare the trade-offs of microservices and a monolith for a system using object-oriented programming, considering scalability and deployment.",0.02,0.0,0.578,0.05,0.2,0,18,0,general,cloud,13
+Please review our internal employee salary report and list the key issues.,0.55,0.5,0.195,0.25,0.2,0,12,0,financial,edge,28
+Brainstorm five project ideas involving the Pythagorean theorem.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,8
+My email is user266931@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Compare linked lists and SQL joins.,0.02,0.0,0.172,0.05,0.45,0,6,0,general,cloud,7
+"In a sentence, explain Java.",0.02,0.0,0.169,0.05,0.85,0,5,0,general,edge,49
+Analyze this confidential employee salary report.,0.9,0.9,0.142,0.25,0.45,0,6,0,financial,edge,26
+Quick: what is the Pythagorean theorem?,0.02,0.0,0.022,0.05,0.85,0,6,0,general,edge,47
+"In a sentence, explain cloud computing.",0.02,0.0,0.172,0.05,0.85,0,6,0,general,edge,49
+Make a high-stakes professional decision for the case.,0.02,0.0,0.03,0.8,0.2,1,8,0,general,human,70
+My account number is 70971784383. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+How does linked lists work?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,4
+Explain what a contract is in simple terms.,0.02,0.0,0.15,0.35,0.2,0,8,0,legal,cloud,18
+Card number 1669 1008 1854 6269 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Write a short lesson plan about HTTP status codes.,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,6
+Brainstorm five project ideas involving Git branching.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,8
+"Hi, should I invest my entire savings in this stock?",0.02,0.0,0.068,0.8,0.2,1,10,0,financial,human,63
+Summarize my medical records and lab results privately.,0.02,0.0,0.18,0.05,0.2,0,8,0,general,edge,40
+"In a sentence, explain CSS flexbox.",0.02,0.0,0.172,0.05,0.85,0,6,0,general,edge,49
+Here is our proprietary company financial report. Extract the main points.,0.95,0.9,0.041,0.25,0.2,0,11,0,financial,edge,30
+Card number 6710 5822 8652 9123 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+"urgent, one line on Python",0.02,0.0,0.049,0.05,0.85,0,5,0,general,edge,52
+"Compare the trade-offs of microservices and a monolith for a system using the Pythagorean theorem, considering scalability and deployment.",0.02,0.0,0.581,0.05,0.2,0,19,0,general,cloud,13
+Write a short lesson plan about the water cycle.,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,6
+Brainstorm five project ideas involving photosynthesis.,0.02,0.0,0.022,0.05,0.45,0,6,0,general,cloud,8
+Analyze this confidential employee performance data.,0.75,0.75,0.142,0.25,0.45,0,6,0,hr,edge,26
+Explain how to optimize the throughput and latency of a database-backed application built around CSS flexbox.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+"Hi, resolve this ethical dilemma and decide for us.",0.02,0.0,0.094,0.8,0.2,1,9,0,general,human,74
+My SSN is 463-56-6078. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Summarize the key concepts of linked lists for an exam.,0.02,0.0,0.158,0.05,0.2,0,10,0,general,cloud,10
+Give legal advice on whether I should proceed. Please answer quickly.,0.02,0.0,0.041,0.95,0.85,1,11,0,legal,human,72
+"Briefly, what is HTML? asap",0.02,0.0,0.049,0.05,0.85,0,5,0,general,edge,48
+tl;dr Java?,0.02,0.0,0.037,0.05,0.85,0,2,0,general,edge,51
+Should I accept this settlement in the lawsuit? Please answer quickly.,0.02,0.0,0.041,0.9,0.85,1,11,0,legal,human,62
+Urgent: Should we declare bankruptcy given this portfolio?,0.02,0.0,0.03,0.8,0.85,1,8,0,financial,human,66
+"urgent, one line on HTTP status codes",0.02,0.0,0.056,0.05,0.85,0,7,0,general,edge,52
+Should I invest my entire savings in this stock?,0.02,0.0,0.034,0.8,0.2,1,9,0,financial,human,63
+Is it safe to change my dosage without asking a doctor? Decide for me. Please answer quickly.,0.02,0.0,0.064,0.9,0.85,1,17,0,medical,human,56
+"Compare the trade-offs of microservices and a monolith for a system using the French Revolution, considering scalability and deployment.",0.02,0.0,0.581,0.05,0.2,0,19,0,general,cloud,13
+Summarize the key concepts of Docker for an exam.,0.02,0.0,0.154,0.05,0.2,0,9,0,general,cloud,10
+Fast answer please: define inflation.,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,50
+Give me a beginner summary of inflation.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,3
+"My phone number is 9243825321, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for the French Revolution.",0.02,0.0,0.7,0.05,0.2,0,16,0,general,cloud,15
+My name is Rahul Sharma and my email is user458224@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for Git branching.",0.02,0.0,0.696,0.05,0.2,0,15,0,general,cloud,15
+Explain object-oriented programming with an example.,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,2
+Review this restricted employee salary report and summarize it.,0.9,0.9,0.184,0.25,0.2,0,9,0,financial,edge,31
+Analyze this confidential company financial report.,0.9,0.9,0.142,0.25,0.45,0,6,0,financial,edge,26
+Give me a beginner summary of sorting algorithms.,0.02,0.0,0.11,0.05,0.2,0,8,0,general,cloud,3
+"Hi, evaluate this high-stakes professional decision and tell me what to do.",0.02,0.0,0.105,0.8,0.2,1,12,0,general,human,73
+This is a critical decision; make the call for us. Please answer quickly.,0.02,0.0,0.079,0.8,0.85,1,13,0,general,human,75
+Write a short lesson plan about JavaScript closures.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,6
+Card number 6212 9475 3595 8166 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Fast answer please: define the Pythagorean theorem.,0.02,0.0,0.026,0.05,0.85,0,7,0,general,edge,50
+Urgent: This is a critical decision; make the call for us.,0.02,0.0,0.071,0.8,0.85,1,11,0,general,human,75
+Brainstorm five project ideas involving CSS flexbox.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,8
+Review our private payroll and tax return figures.,0.95,0.9,0.18,0.25,0.2,0,8,0,financial,edge,45
+"Hi, should we approve this loan for the company given the audit findings?",0.5,0.5,0.329,0.8,0.2,1,13,0,financial,human,64
+"urgent, one line on JavaScript closures",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,52
+Should I sue my landlord over this contract clause?,0.02,0.0,0.034,0.9,0.2,1,9,0,legal,human,59
+Urgent: Give legal advice on whether I should proceed.,0.02,0.0,0.034,0.95,0.85,1,9,0,legal,human,72
+Here is our proprietary employee performance data. Extract the main points.,0.8,0.75,0.041,0.25,0.2,0,11,0,hr,edge,30
+"Hi, is it safe to change my dosage without asking a doctor? Decide for me.",0.02,0.0,0.086,0.9,0.2,1,15,0,medical,human,56
+Summarize the key concepts of the Pythagorean theorem for an exam.,0.02,0.0,0.161,0.05,0.2,0,11,0,general,cloud,10
+"Hi, should this patient stop treatment and switch to a different drug?",0.65,0.65,0.105,0.9,0.2,1,12,0,medical,human,55
+Fast answer please: define Python.,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,50
+Brainstorm five project ideas involving the French Revolution.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,8
+Is the legal document safe to sign?,0.02,0.0,0.026,0.9,0.2,1,7,0,legal,human,58
+Here is our proprietary board meeting minutes. Extract the main points.,0.8,0.75,0.041,0.05,0.2,0,11,0,general,edge,30
+Fast answer please: define the French Revolution.,0.02,0.0,0.026,0.05,0.85,0,7,0,general,edge,50
+"Hi, should we lay off the team based on this review?",0.02,0.0,0.191,0.2,0.2,0,11,0,general,human,69
+How does machine learning work?,0.02,0.0,0.219,0.05,0.45,0,5,0,general,cloud,4
+Compare REST APIs and sorting algorithms.,0.02,0.0,0.252,0.05,0.45,0,6,0,general,cloud,7
+Please review our internal board meeting minutes and list the key issues.,0.02,0.0,0.195,0.05,0.2,0,12,0,general,edge,28
+What are the main advantages of REST APIs?,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,5
+My SSN is 503-79-4292. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Review this restricted employee performance data and summarize it.,0.75,0.75,0.184,0.25,0.2,0,9,0,hr,edge,31
+My account number is 40652481245. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+Review this restricted customer list and summarize it.,0.75,0.75,0.18,0.05,0.2,0,8,0,general,edge,31
+Give legal advice on whether I should proceed.,0.02,0.0,0.03,0.95,0.2,1,8,0,legal,human,72
+Analyze this confidential payroll spreadsheet.,0.9,0.9,0.139,0.05,0.45,0,5,0,general,edge,26
+Write a short lesson plan about Java.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,6
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for cloud computing.",0.02,0.0,0.696,0.05,0.2,0,15,0,general,cloud,15
+Explain Python with an example.,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,2
+Should I take a mortgage on the property? Decide for me.,0.02,0.0,0.041,0.8,0.2,1,11,0,financial,human,65
+My name is David Lee and my email is user554871@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+My email is user861319@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+My SSN is 364-91-2899. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Compare sorting algorithms and React hooks.,0.02,0.0,0.252,0.05,0.45,0,6,0,general,cloud,7
+Should we lay off the team based on this review?,0.02,0.0,0.158,0.2,0.2,0,10,0,general,human,69
+tl;dr HTML?,0.02,0.0,0.037,0.05,0.85,0,2,0,general,edge,51
+Summarize this confidential internal audit report for me.,0.75,0.75,0.15,0.25,0.2,0,8,0,financial,edge,27
+"In a sentence, explain inflation.",0.02,0.0,0.169,0.05,0.85,0,5,0,general,edge,49
+My name is John Miller and my email is user105621@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+Give me a beginner summary of the French Revolution.,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,3
+Explain the water cycle with an example.,0.02,0.0,0.146,0.05,0.2,0,7,0,general,cloud,2
+Compare object-oriented programming and cloud computing.,0.02,0.0,0.172,0.05,0.45,0,6,0,general,cloud,7
+Brainstorm five project ideas involving REST APIs.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,8
+My SSN is 518-55-3292. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+What is REST APIs?,0.02,0.0,0.015,0.05,0.45,0,4,0,general,cloud,1
+"Hi, this is a life-or-death situation, I need your professional judgment now.",0.02,0.0,0.105,0.65,0.2,1,12,0,general,human,71
+Give me a beginner summary of JavaScript closures.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,3
+Write a short lesson plan about HTML.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,6
+"Hi, should we proceed with surgery for this diagnosis?",0.55,0.55,0.064,0.9,0.2,1,9,0,medical,human,57
+My name is Ananya Rao and my email is user799459@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+What are the main advantages of recursion?,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,5
+Explain cloud computing with an example.,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,2
+How does CSS flexbox work?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,4
+My email is user887443@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Should we proceed with surgery for this diagnosis?,0.55,0.55,0.03,0.9,0.2,1,8,0,medical,human,57
+Why is Java important?,0.02,0.0,0.135,0.05,0.45,0,4,0,general,cloud,11
+"urgent, one line on binary search",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,52
+what are common symptoms of the flu?,0.02,0.0,0.026,0.35,0.2,0,7,0,medical,cloud,17
+"urgent, one line on recursion",0.02,0.0,0.049,0.05,0.85,0,5,0,general,edge,52
+Here is our proprietary trade secret document. Extract the main points.,0.9,0.85,0.041,0.05,0.2,0,11,0,general,edge,30
+What are the main advantages of Git branching?,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,5
+Urgent: Should this patient undergo this medical procedure?,0.55,0.55,0.03,0.9,0.85,1,8,0,medical,human,53
+Fast answer please: define React hooks.,0.02,0.0,0.022,0.05,0.85,0,6,0,general,edge,50
+Why is CSS flexbox important?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,11
+"Hi, give legal advice on whether I should proceed.",0.02,0.0,0.064,0.95,0.2,1,9,0,legal,human,72
+What is binary search?,0.02,0.0,0.015,0.05,0.45,0,4,0,general,cloud,1
+"My employee ID is EMP783185 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+Give me a beginner summary of machine learning.,0.02,0.0,0.11,0.05,0.2,0,8,0,general,cloud,3
+Brainstorm five project ideas involving inflation.,0.02,0.0,0.022,0.05,0.45,0,6,0,general,cloud,8
+Quick: what is Git branching?,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,47
+What are the main advantages of SQL joins?,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,5
+Give me a beginner summary of binary search.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,3
+"Compare the trade-offs of microservices and a monolith for a system using JavaScript closures, considering scalability and deployment.",0.02,0.0,0.578,0.05,0.2,0,18,0,general,cloud,13
+Summarize this patient treatment history document for my notes.,0.7,0.65,0.154,0.35,0.2,0,9,0,medical,edge,43
+Give me a beginner summary of the water cycle.,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,3
+Brainstorm five project ideas involving Python.,0.02,0.0,0.022,0.05,0.45,0,6,0,general,cloud,8
+"urgent, one line on Docker",0.02,0.0,0.049,0.05,0.85,0,5,0,general,edge,52
+What are the main advantages of the water cycle?,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,5
+What is the French Revolution?,0.02,0.0,0.019,0.05,0.45,0,5,0,general,cloud,1
+Should I sue my landlord over this contract clause? Please answer quickly.,0.02,0.0,0.045,0.9,0.85,1,12,0,legal,human,59
+Analyze this confidential board meeting minutes.,0.75,0.75,0.142,0.05,0.45,0,6,0,general,edge,26
+Should the patient stop treatment and switch to a different drug?,0.65,0.65,0.071,0.9,0.2,1,11,0,medical,human,55
+"My phone number is 9913025234, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Analyze our bank transaction history and our income for the last year.,0.75,0.7,0.195,0.25,0.2,0,12,0,financial,edge,44
+Is it safe to change my dosage without asking a doctor? Decide for me. It affects a lot of people.,0.02,0.0,0.075,0.9,0.2,1,20,0,medical,human,56
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for HTML.",0.02,0.0,0.693,0.05,0.2,0,14,0,general,cloud,15
+My SSN is 575-22-9797. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Urgent: Is it legal to terminate this contract early? Decide for me.,0.02,0.0,0.045,0.9,0.85,1,12,0,legal,human,61
+"Hi, should I sue my landlord over this contract clause?",0.02,0.0,0.068,0.9,0.2,1,10,0,legal,human,59
+My Aadhaar number is 8083 3396 1354. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+My Aadhaar number is 2979 7858 5315. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+My name is Sara Khan and my email is user859181@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+"Hi, should I take this medication together with my current prescription?",0.7,0.65,0.071,0.9,0.2,1,11,0,medical,human,54
+Design a distributed fault-tolerant architecture for a large-scale TCP vs UDP platform.,0.02,0.0,0.595,0.05,0.2,0,12,0,general,cloud,12
+"urgent, one line on object-oriented programming",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,52
+Why is the Pythagorean theorem important?,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,11
+"My employee ID is EMP456637 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+Explain how to optimize the throughput and latency of a database-backed application built around React hooks.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+Explain how to optimize the throughput and latency of a database-backed application built around quantum computing.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+My Aadhaar number is 9854 1732 4845. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+Design a distributed fault-tolerant architecture for a large-scale HTML platform.,0.02,0.0,0.587,0.05,0.2,0,10,0,general,cloud,12
+Why is photosynthesis important?,0.02,0.0,0.135,0.05,0.45,0,4,0,general,cloud,11
+"Compare the trade-offs of microservices and a monolith for a system using binary search, considering scalability and deployment.",0.02,0.0,0.578,0.05,0.2,0,18,0,general,cloud,13
+My account number is 92541442410. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+What is the difference between REST APIs and the water cycle?,0.02,0.0,0.191,0.05,0.2,0,11,0,general,cloud,9
+My account number is 97190460171. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+My account number is 53670377820. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+Explain JavaScript closures with an example.,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,2
+"Compare the trade-offs of microservices and a monolith for a system using cloud computing, considering scalability and deployment.",0.02,0.0,0.578,0.05,0.2,0,18,0,general,cloud,13
+My name is John Miller and my email is user792244@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+"In a sentence, explain linked lists.",0.02,0.0,0.172,0.05,0.85,0,6,0,general,edge,49
+Compare TCP vs UDP and inflation.,0.02,0.0,0.172,0.05,0.45,0,6,0,general,cloud,7
+"Briefly, what is linked lists? asap",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,48
+"urgent, one line on the French Revolution",0.02,0.0,0.056,0.05,0.85,0,7,0,general,edge,52
+What is machine learning?,0.02,0.0,0.095,0.05,0.45,0,4,0,general,cloud,1
+Should we terminate this employee after the performance review?,0.02,0.0,0.154,0.8,0.2,1,9,0,hr,human,67
+Should we declare bankruptcy given this portfolio? Please answer quickly.,0.02,0.0,0.037,0.8,0.85,1,10,0,financial,human,66
+What is HTTP status codes?,0.02,0.0,0.019,0.05,0.45,0,5,0,general,cloud,1
+Analyze this private health record and list the medications mentioned.,1.0,1.0,0.188,0.35,0.2,0,10,0,medical,edge,42
+Should we proceed with surgery for this diagnosis? Please answer quickly.,0.55,0.55,0.041,0.9,0.85,1,11,0,medical,human,57
+Explain the Pythagorean theorem with an example.,0.02,0.0,0.146,0.05,0.2,0,7,0,general,cloud,2
+Should we approve this promotion or fire the employee? Decide. Please answer quickly.,0.02,0.0,0.299,0.8,0.85,1,13,0,hr,human,68
+Why is sorting algorithms important?,0.02,0.0,0.219,0.05,0.45,0,5,0,general,cloud,11
+Give me a beginner summary of photosynthesis.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,3
+"My phone number is 9268910304, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+What are common symptoms of the flu?,0.02,0.0,0.026,0.35,0.2,0,7,0,medical,cloud,17
+"My phone number is 9792156071, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+My name is David Lee and my email is user492446@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+Should we sign this agreement given the liability clauses?,0.02,0.0,0.034,0.9,0.2,1,9,0,legal,human,60
+What is the difference between Java and cloud computing?,0.02,0.0,0.184,0.05,0.2,0,9,0,general,cloud,9
+Should we sign the agreement given the liability clauses?,0.02,0.0,0.034,0.9,0.2,1,9,0,legal,human,60
+Why is Docker important?,0.02,0.0,0.135,0.05,0.45,0,4,0,general,cloud,11
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for inflation.",0.02,0.0,0.693,0.05,0.2,0,14,0,general,cloud,15
+Quick: what is cloud computing?,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,47
+What is the difference between HTTP status codes and object-oriented programming?,0.02,0.0,0.191,0.05,0.2,0,11,0,general,cloud,9
+Should we approve this promotion or fire the employee? Decide.,0.02,0.0,0.287,0.8,0.2,1,10,0,hr,human,68
+Make a high-stakes professional decision for this case.,0.02,0.0,0.03,0.8,0.2,1,8,0,general,human,70
+"This is a life-or-death situation, I need your professional judgment now. Please answer quickly.",0.02,0.0,0.082,0.65,0.85,1,14,0,general,human,71
+"My phone number is 9389659515, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Explain Java with an example.,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,2
+Write a short lesson plan about machine learning.,0.02,0.0,0.11,0.05,0.2,0,8,0,general,cloud,6
+Why is linked lists important?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,11
+Explain what an audit is.,0.02,0.0,0.139,0.25,0.45,0,5,0,financial,cloud,25
+What is Java?,0.02,0.0,0.011,0.05,0.45,0,3,0,general,cloud,1
+Summarize this confidential employee salary report for me.,0.9,0.9,0.15,0.25,0.2,0,8,0,financial,edge,27
+tl;dr HTTP status codes?,0.02,0.0,0.045,0.05,0.85,0,4,0,general,edge,51
+Summarize this confidential customer list for me.,0.75,0.75,0.146,0.05,0.2,0,7,0,general,edge,27
+Compare Git branching and linked lists.,0.02,0.0,0.172,0.05,0.45,0,6,0,general,cloud,7
+What is the difference between SQL joins and machine learning?,0.02,0.0,0.267,0.05,0.2,0,10,0,general,cloud,9
+Design a distributed fault-tolerant architecture for a large-scale the French Revolution platform.,0.02,0.0,0.595,0.05,0.2,0,12,0,general,cloud,12
+Write a short lesson plan about CSS flexbox.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,6
+Should we approve this loan for the company given the audit findings?,0.5,0.5,0.295,0.8,0.2,1,12,0,financial,human,64
+Review this restricted board meeting minutes and summarize it.,0.75,0.75,0.184,0.05,0.2,0,9,0,general,edge,31
+My email is user986365@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Should this patient undergo this medical procedure?,0.55,0.55,0.026,0.9,0.2,1,7,0,medical,human,53
+Analyze this confidential merger plan.,0.75,0.75,0.139,0.05,0.45,0,5,0,general,edge,26
+My Aadhaar number is 8550 4064 5370. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+Review this restricted trade secret document and summarize it.,0.85,0.85,0.184,0.05,0.2,0,9,0,general,edge,31
+Design a distributed fault-tolerant architecture for a large-scale Java platform.,0.02,0.0,0.587,0.05,0.2,0,10,0,general,cloud,12
+Give me a beginner summary of HTTP status codes.,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,3
+Should I sue my landlord over the contract clause?,0.02,0.0,0.034,0.9,0.2,1,9,0,legal,human,59
+Card number 9947 3721 7185 4541 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+"My employee ID is EMP250990 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+Summarize the key concepts of CSS flexbox for an exam.,0.02,0.0,0.158,0.05,0.2,0,10,0,general,cloud,10
+"Hi, should we declare bankruptcy given this portfolio?",0.02,0.0,0.06,0.8,0.2,1,8,0,financial,human,66
+Urgent: Should I take this medication together with my current prescription?,0.7,0.65,0.041,0.9,0.85,1,11,0,medical,human,54
+Compare Java and Docker.,0.02,0.0,0.165,0.05,0.45,0,4,0,general,cloud,7
+"My phone number is 9132816979, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Card number 7541 2195 4654 7360 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+How does the water cycle work?,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,4
+What are the main advantages of the French Revolution?,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,5
+"Compare the trade-offs of microservices and a monolith for a system using HTTP status codes, considering scalability and deployment.",0.02,0.0,0.581,0.05,0.2,0,19,0,general,cloud,13
+tl;dr Git branching?,0.02,0.0,0.041,0.05,0.85,0,3,0,general,edge,51
+Summarize the key concepts of recursion for an exam.,0.02,0.0,0.154,0.05,0.2,0,9,0,general,cloud,10
+My email is user564920@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+"Briefly, what is React hooks? asap",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,48
+Write a short lesson plan about quantum computing.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,6
+Give me a beginner summary of recursion.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,3
+Design a distributed fault-tolerant architecture for a large-scale quantum computing platform.,0.02,0.0,0.591,0.05,0.2,0,11,0,general,cloud,12
+"Hi, should I take a mortgage on this property? Decide for me.",0.02,0.0,0.075,0.8,0.2,1,12,0,financial,human,65
+Evaluate the high-stakes professional decision and tell me what to do.,0.02,0.0,0.071,0.8,0.2,1,11,0,general,human,73
+Is it safe to change my dosage without asking a doctor? Decide for me.,0.02,0.0,0.052,0.9,0.2,1,14,0,medical,human,56
+Analyze this private trade secret document and find anomalies.,0.85,0.85,0.184,0.05,0.2,0,9,0,general,edge,29
+"My phone number is 9728751749, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Should I take the medication together with my current prescription?,0.7,0.65,0.037,0.9,0.2,1,10,0,medical,human,54
+"In a sentence, explain REST APIs.",0.02,0.0,0.172,0.05,0.85,0,6,0,general,edge,49
+"Hi, should we terminate this employee after the performance review?",0.02,0.0,0.188,0.8,0.2,1,10,0,hr,human,67
+Write a short lesson plan about linked lists.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,6
+Here is our proprietary customer list. Extract the main points.,0.8,0.75,0.037,0.05,0.2,0,10,0,general,edge,30
+Here is our proprietary compensation report. Extract the main points.,0.95,0.9,0.037,0.05,0.2,0,10,0,general,edge,30
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for HTTP status codes.",0.02,0.0,0.7,0.05,0.2,0,16,0,general,cloud,15
+Design a distributed fault-tolerant architecture for a large-scale JavaScript closures platform.,0.02,0.0,0.591,0.05,0.2,0,11,0,general,cloud,12
+Should we sign this agreement given the liability clauses? Please answer quickly.,0.02,0.0,0.045,0.9,0.85,1,12,0,legal,human,60
+My account number is 65341272621. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+Here is our proprietary internal audit report. Extract the main points.,0.8,0.75,0.041,0.25,0.2,0,11,0,financial,edge,30
+What is the Pythagorean theorem?,0.02,0.0,0.019,0.05,0.45,0,5,0,general,cloud,1
+Card number 7113 7292 9020 6043 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+"Hi, should this patient undergo this medical procedure?",0.55,0.55,0.06,0.9,0.2,1,8,0,medical,human,53
+Explain what an employee handbook usually contains.,0.02,0.0,0.146,0.25,0.2,0,7,0,hr,cloud,22
+"Compare the trade-offs of microservices and a monolith for a system using the water cycle, considering scalability and deployment.",0.02,0.0,0.581,0.05,0.2,0,19,0,general,cloud,13
+What is the history of the stock market?,0.02,0.0,0.03,0.25,0.2,0,8,0,financial,cloud,21
+Is it legal to terminate this contract early? Decide for me.,0.02,0.0,0.041,0.9,0.2,1,11,0,legal,human,61
+Fast answer please: define CSS flexbox.,0.02,0.0,0.022,0.05,0.85,0,6,0,general,edge,50
+What are the main advantages of React hooks?,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,5
+Make a high-stakes professional decision for this case. Please answer quickly.,0.02,0.0,0.041,0.8,0.85,1,11,0,general,human,70
+My name is Priya Nair and my email is user362127@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+How does binary search work?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,4
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for REST APIs.",0.02,0.0,0.696,0.05,0.2,0,15,0,general,cloud,15
+Urgent: Should we terminate this employee after the performance review?,0.02,0.0,0.158,0.8,0.85,1,10,0,hr,human,67
+"Hi, make a high-stakes professional decision for this case.",0.02,0.0,0.064,0.8,0.2,1,9,0,general,human,70
+"urgent, one line on Git branching",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,52
+Urgent: Resolve this ethical dilemma and decide for us.,0.02,0.0,0.064,0.8,0.85,1,9,0,general,human,74
+Brainstorm five project ideas involving linked lists.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,8
+Quick: what is Docker?,0.02,0.0,0.015,0.05,0.85,0,4,0,general,edge,47
+My SSN is 634-63-8807. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+Should we approve the promotion or fire the employee? Decide.,0.02,0.0,0.287,0.8,0.2,1,10,0,hr,human,68
+What is the difference between CSS flexbox and SQL joins?,0.02,0.0,0.188,0.05,0.2,0,10,0,general,cloud,9
+My account number is 1335598059. Can you analyze my recent transactions?,0.95,0.8,0.161,0.05,0.2,0,11,1,general,edge,34
+How do banks work?,0.02,0.0,0.135,0.25,0.45,0,4,0,financial,cloud,20
+My email is user444061@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Analyze this private company financial report and find anomalies.,0.9,0.9,0.184,0.25,0.2,0,9,0,financial,edge,29
+tl;dr photosynthesis?,0.02,0.0,0.037,0.05,0.85,0,2,0,general,edge,51
+tl;dr CSS flexbox?,0.02,0.0,0.041,0.05,0.85,0,3,0,general,edge,51
+Explain how to optimize the throughput and latency of a database-backed application built around Docker.,0.02,0.0,0.576,0.05,0.2,0,15,0,general,cloud,14
+My email is user560485@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+"Briefly, what is the water cycle? asap",0.02,0.0,0.056,0.05,0.85,0,7,0,general,edge,48
+Please review our internal payroll spreadsheet and list the key issues.,0.65,0.6,0.191,0.05,0.2,0,11,0,general,edge,28
+How does Git branching work?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,4
+Explain how to optimize the throughput and latency of a database-backed application built around cloud computing.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+Write a short lesson plan about REST APIs.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,6
+What are the main advantages of machine learning?,0.02,0.0,0.11,0.05,0.2,0,8,0,general,cloud,5
+Review my private payroll and tax return figures.,0.95,0.9,0.18,0.25,0.2,0,8,0,financial,edge,45
+Quick: what is TCP vs UDP?,0.02,0.0,0.022,0.05,0.85,0,6,0,general,edge,47
+Write a short lesson plan about object-oriented programming.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,6
+Analyze this private customer list and find anomalies.,0.75,0.75,0.18,0.05,0.2,0,8,0,general,edge,29
+My Aadhaar number is 6499 8415 9039. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+How does JavaScript closures work?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,4
+Summarize the key concepts of the water cycle for an exam.,0.02,0.0,0.161,0.05,0.2,0,11,0,general,cloud,10
+Summarize the key concepts of machine learning for an exam.,0.02,0.0,0.237,0.05,0.2,0,10,0,general,cloud,10
+Write a short lesson plan about Docker.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,6
+"My employee ID is EMP853270 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+My account number is 35525915860. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+"In a sentence, explain machine learning.",0.02,0.0,0.252,0.05,0.85,0,6,0,general,edge,49
+Quick: what is the water cycle?,0.02,0.0,0.022,0.05,0.85,0,6,0,general,edge,47
+Should I take this medication together with my current prescription?,0.7,0.65,0.037,0.9,0.2,1,10,0,medical,human,54
+"My employee ID is EMP326172 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+What are the main advantages of binary search?,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,5
+Urgent: Should I sue my landlord over this contract clause?,0.02,0.0,0.037,0.9,0.85,1,10,0,legal,human,59
+Should I sue my landlord over this contract clause? It affects a lot of people.,0.02,0.0,0.056,0.9,0.2,1,15,0,legal,human,59
+Should this patient stop treatment and switch to a different drug? Please answer quickly.,0.65,0.65,0.082,0.9,0.85,1,14,0,medical,human,55
+Explain how to optimize the throughput and latency of a database-backed application built around SQL joins.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+"My employee ID is EMP861265 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+My email is user427730@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Write a short lesson plan about recursion.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,6
+"My phone number is 9207518427, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+How does object-oriented programming work?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,4
+What is recursion?,0.02,0.0,0.011,0.05,0.45,0,3,0,general,cloud,1
+Should we declare bankruptcy given this portfolio?,0.02,0.0,0.026,0.8,0.2,1,7,0,financial,human,66
+Write a short lesson plan about the French Revolution.,0.02,0.0,0.034,0.05,0.2,0,9,0,general,cloud,6
+Resolve the ethical dilemma and decide for us.,0.02,0.0,0.06,0.8,0.2,1,8,0,general,human,74
+Compare binary search and CSS flexbox.,0.02,0.0,0.172,0.05,0.45,0,6,0,general,cloud,7
+Evaluate this high-stakes professional decision and tell me what to do. It affects a lot of people.,0.02,0.0,0.094,0.8,0.2,1,17,0,general,human,73
+My email is user386042@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Fast answer please: define sorting algorithms.,0.02,0.0,0.103,0.05,0.85,0,6,0,general,edge,50
+What is the difference between object-oriented programming and sorting algorithms?,0.02,0.0,0.267,0.05,0.2,0,10,0,general,cloud,9
+"Urgent: This is a life-or-death situation, I need your professional judgment now.",0.02,0.0,0.075,0.65,0.85,1,12,0,general,human,71
+"In a sentence, explain binary search.",0.02,0.0,0.172,0.05,0.85,0,6,0,general,edge,49
+My email is user143941@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+My Aadhaar number is 8583 4450 6409. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+Summarize the key concepts of React hooks for an exam.,0.02,0.0,0.158,0.05,0.2,0,10,0,general,cloud,10
+"Compare the trade-offs of microservices and a monolith for a system using TCP vs UDP, considering scalability and deployment.",0.02,0.0,0.581,0.05,0.2,0,19,0,general,cloud,13
+Should we approve the loan for the company given the audit findings?,0.5,0.5,0.295,0.8,0.2,1,12,0,financial,human,64
+Summarize the key concepts of object-oriented programming for an exam.,0.02,0.0,0.158,0.05,0.2,0,10,0,general,cloud,10
+Please review our internal merger plan and list the key issues.,0.02,0.0,0.191,0.05,0.2,0,11,0,general,edge,28
+Design a distributed fault-tolerant architecture for a large-scale REST APIs platform.,0.02,0.0,0.591,0.05,0.2,0,11,0,general,cloud,12
+Should we lay off the team based on this review? It affects a lot of people.,0.02,0.0,0.18,0.2,0.2,0,16,0,general,human,69
+Explain how to optimize the throughput and latency of a database-backed application built around photosynthesis.,0.02,0.0,0.576,0.05,0.2,0,15,0,general,cloud,14
+Explain recursion with an example.,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,2
+Help me budget using our salary and account balances.,0.65,0.6,0.064,0.25,0.2,0,9,0,financial,edge,46
+Design a distributed fault-tolerant architecture for a large-scale React hooks platform.,0.02,0.0,0.591,0.05,0.2,0,11,0,general,cloud,12
+Urgent: Should I take a mortgage on this property? Decide for me.,0.02,0.0,0.045,0.8,0.85,1,12,0,financial,human,65
+Should the patient undergo the medical procedure?,0.55,0.55,0.026,0.9,0.2,1,7,0,medical,human,53
+Card number 2651 1155 2000 5359 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Why is the French Revolution important?,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,11
+"Hi, should I accept this settlement in the lawsuit?",0.02,0.0,0.064,0.9,0.2,1,9,0,legal,human,62
+Is it legal to terminate this contract early? Decide for me. Please answer quickly.,0.02,0.0,0.052,0.9,0.85,1,14,0,legal,human,61
+Explain how to optimize the throughput and latency of a database-backed application built around REST APIs.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+How does Java work?,0.02,0.0,0.135,0.05,0.45,0,4,0,general,cloud,4
+My Aadhaar number is 6991 8636 6668. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+Should I take a mortgage on this property? Decide for me. It affects a lot of people.,0.02,0.0,0.064,0.8,0.2,1,17,0,financial,human,65
+Should I invest my entire savings in this stock? Please answer quickly.,0.02,0.0,0.045,0.8,0.85,1,12,0,financial,human,63
+Urgent: Should we proceed with surgery for this diagnosis?,0.55,0.55,0.034,0.9,0.85,1,9,0,medical,human,57
+Compare JavaScript closures and Git branching.,0.02,0.0,0.172,0.05,0.45,0,6,0,general,cloud,7
+"In a sentence, explain the water cycle.",0.02,0.0,0.176,0.05,0.85,0,7,0,general,edge,49
+Summarize the key concepts of SQL joins for an exam.,0.02,0.0,0.158,0.05,0.2,0,10,0,general,cloud,10
+Card number 5828 8543 3361 7898 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for linked lists.",0.02,0.0,0.696,0.05,0.2,0,15,0,general,cloud,15
+My email is user781725@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+My name is Rahul Sharma and my email is user838747@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+My Aadhaar number is 9534 3067 8435. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+Urgent: Is this legal document safe to sign?,0.02,0.0,0.03,0.9,0.85,1,8,0,legal,human,58
+Should I accept this settlement in the lawsuit? It affects a lot of people.,0.02,0.0,0.052,0.9,0.2,1,14,0,legal,human,62
+Should I accept the settlement in the lawsuit?,0.02,0.0,0.03,0.9,0.2,1,8,0,legal,human,62
+"Compare the trade-offs of microservices and a monolith for a system using recursion, considering scalability and deployment.",0.02,0.0,0.574,0.05,0.2,0,17,0,general,cloud,13
+"Compare the trade-offs of microservices and a monolith for a system using HTML, considering scalability and deployment.",0.02,0.0,0.574,0.05,0.2,0,17,0,general,cloud,13
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for object-oriented programming.",0.02,0.0,0.696,0.05,0.2,0,15,0,general,cloud,15
+explain what an audit is.,0.02,0.0,0.139,0.25,0.45,0,5,0,financial,cloud,25
+Explain how to optimize the throughput and latency of a database-backed application built around HTML.,0.02,0.0,0.576,0.05,0.2,0,15,0,general,cloud,14
+Should this patient stop treatment and switch to a different drug? It affects a lot of people.,0.65,0.65,0.094,0.9,0.2,1,17,0,medical,human,55
+What is the difference between inflation and REST APIs?,0.02,0.0,0.184,0.05,0.2,0,9,0,general,cloud,9
+My Aadhaar number is 9082 2989 7126. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+"My phone number is 9139476288, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+My account number is 33285717519. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+"My employee ID is EMP916639 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+"Briefly, what is Java? asap",0.02,0.0,0.049,0.05,0.85,0,5,0,general,edge,48
+Should we declare bankruptcy given this portfolio? It affects a lot of people.,0.02,0.0,0.049,0.8,0.2,1,13,0,financial,human,66
+Quick: what is sorting algorithms?,0.02,0.0,0.099,0.05,0.85,0,5,0,general,edge,47
+Quick: what is REST APIs?,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,47
+"Briefly, what is cloud computing? asap",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,48
+My SSN is 492-84-7850. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+My SSN is 917-75-2437. Help me fill out this tax form.,0.9,0.75,0.041,0.25,0.2,0,11,1,financial,edge,39
+My Aadhaar number is 7268 7302 8274. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+Explain how to optimize the throughput and latency of a database-backed application built around binary search.,0.02,0.0,0.58,0.05,0.2,0,16,0,general,cloud,14
+"My employee ID is EMP236014 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+What is the difference between quantum computing and machine learning?,0.02,0.0,0.267,0.05,0.2,0,10,0,general,cloud,9
+My Aadhaar number is 5948 6091 3839. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+What is diabetes?,0.02,0.0,0.011,0.05,0.45,0,3,0,general,cloud,16
+Should we proceed with surgery for this diagnosis? It affects a lot of people.,0.55,0.55,0.052,0.9,0.2,1,14,0,medical,human,57
+My Aadhaar number is 8723 7169 5771. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+"Briefly, what is quantum computing? asap",0.02,0.0,0.052,0.05,0.85,0,6,0,general,edge,48
+Give me a beginner summary of CSS flexbox.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,3
+Should we terminate this employee after the performance review? Please answer quickly.,0.02,0.0,0.165,0.8,0.85,1,12,0,hr,human,67
+Review this restricted company financial report and summarize it.,0.9,0.9,0.184,0.25,0.2,0,9,0,financial,edge,31
+My patient records are private. Summarize the diagnosis history in this file.,1.0,1.0,0.165,0.35,0.2,0,12,0,medical,edge,41
+Explain SQL joins with an example.,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,2
+My name is John Miller and my email is user370948@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+This is a critical decision; make the call for us.,0.02,0.0,0.068,0.8,0.2,1,10,0,general,human,75
+Summarize this confidential merger plan for me.,0.75,0.75,0.146,0.05,0.2,0,7,0,general,edge,27
+Card number 4748 6000 2424 6007 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Design a distributed fault-tolerant architecture for a large-scale binary search platform.,0.02,0.0,0.591,0.05,0.2,0,11,0,general,cloud,12
+Here is our proprietary payroll spreadsheet. Extract the main points.,0.95,0.9,0.037,0.05,0.2,0,10,0,general,edge,30
+Summarize the key concepts of HTML for an exam.,0.02,0.0,0.154,0.05,0.2,0,9,0,general,cloud,10
+"This is a life-or-death situation, I need your professional judgment now.",0.02,0.0,0.071,0.65,0.2,1,11,0,general,human,71
+"My employee ID is EMP539422 and my salary is 80,000. Analyze my financial situation.",1.0,0.9,0.232,0.25,0.2,0,14,1,financial,edge,35
+Urgent: Is it safe to change my dosage without asking a doctor? Decide for me.,0.02,0.0,0.056,0.9,0.85,1,15,0,medical,human,56
+"Hi, should we approve this promotion or fire the employee? Decide.",0.02,0.0,0.321,0.8,0.2,1,11,0,hr,human,68
+Summarize the key concepts of TCP vs UDP for an exam.,0.02,0.0,0.161,0.05,0.2,0,11,0,general,cloud,10
+Fast answer please: define HTML.,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,50
+Quick: what is Java?,0.02,0.0,0.015,0.05,0.85,0,4,0,general,edge,47
+My account number is 65616675318. Can you analyze my recent transactions?,0.9,0.75,0.161,0.05,0.2,0,11,1,general,edge,34
+Analyze this confidential internal audit report.,0.75,0.75,0.142,0.25,0.45,0,6,0,financial,edge,26
+tl;dr Docker?,0.02,0.0,0.037,0.05,0.85,0,2,0,general,edge,51
+what is the history of the stock market?,0.02,0.0,0.03,0.25,0.2,0,8,0,financial,cloud,21
+Quick: what is object-oriented programming?,0.02,0.0,0.019,0.05,0.85,0,5,0,general,edge,47
+"This is a life-or-death situation, I need your professional judgment now.",0.02,0.0,0.071,0.65,0.2,1,11,0,general,human,71
+Analyze this private board meeting minutes and find anomalies.,0.75,0.75,0.184,0.05,0.2,0,9,0,general,edge,29
+Card number 3756 1922 2573 6825 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+Urgent: Should I accept this settlement in the lawsuit?,0.02,0.0,0.034,0.9,0.85,1,9,0,legal,human,62
+"In a sentence, explain photosynthesis.",0.02,0.0,0.169,0.05,0.85,0,5,0,general,edge,49
+Explain HTML with an example.,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,2
+What are the main advantages of JavaScript closures?,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,5
+"Hi, is this legal document safe to sign?",0.02,0.0,0.06,0.9,0.2,1,8,0,legal,human,58
+Is it legal to terminate the contract early? Decide for me.,0.02,0.0,0.041,0.9,0.2,1,11,0,legal,human,61
+Give me a beginner summary of cloud computing.,0.02,0.0,0.03,0.05,0.2,0,8,0,general,cloud,3
+"Design a scalable pipeline and explain the algorithm, architecture and replication strategy for recursion.",0.02,0.0,0.693,0.05,0.2,0,14,0,general,cloud,15
+Brainstorm five project ideas involving Java.,0.02,0.0,0.022,0.05,0.45,0,6,0,general,cloud,8
+Should I accept this settlement in the lawsuit?,0.02,0.0,0.03,0.9,0.2,1,8,0,legal,human,62
+Card number 4438 2622 1732 4884 was charged twice. Help me write a dispute email.,0.9,0.8,0.056,0.05,0.2,0,15,1,general,edge,37
+How does REST APIs work?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,4
+"Hi, is it legal to terminate this contract early? Decide for me.",0.02,0.0,0.075,0.9,0.2,1,12,0,legal,human,61
+What is Docker?,0.02,0.0,0.011,0.05,0.45,0,3,0,general,cloud,1
+My name is Rahul Sharma and my email is user832453@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+What is HTML?,0.02,0.0,0.011,0.05,0.45,0,3,0,general,cloud,1
+what is compound interest?,0.02,0.0,0.015,0.05,0.45,0,4,0,general,cloud,19
+Compare machine learning and HTTP status codes.,0.02,0.0,0.256,0.05,0.2,0,7,0,general,cloud,7
+"Hi, this is a critical decision; make the call for us.",0.02,0.0,0.101,0.8,0.2,1,11,0,general,human,75
+Give me a beginner summary of Docker.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,3
+My name is Rahul Sharma and my email is user438869@example.com. Help me write a cover letter.,0.95,0.8,0.09,0.05,0.2,0,16,1,general,edge,36
+"My phone number is 9168461684, please help me write a voicemail script.",0.9,0.75,0.075,0.05,0.2,0,12,1,general,edge,33
+Why is Python important?,0.02,0.0,0.135,0.05,0.45,0,4,0,general,cloud,11
+Urgent: Make a high-stakes professional decision for this case.,0.02,0.0,0.034,0.8,0.85,1,9,0,general,human,70
+Explain machine learning with an example.,0.02,0.0,0.222,0.05,0.45,0,6,0,general,cloud,2
+Is it safe to change my dosage without asking a doctor? Decide for me.,0.02,0.0,0.052,0.9,0.2,1,14,0,medical,human,56
+Should this patient undergo this medical procedure? It affects a lot of people.,0.55,0.55,0.049,0.9,0.2,1,13,0,medical,human,53
+My Aadhaar number is 5389 9314 4524. How do I update my address?,1.0,0.9,0.169,0.05,0.2,0,13,1,general,edge,38
+What are the main advantages of photosynthesis?,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,5
+Brainstorm five project ideas involving object-oriented programming.,0.02,0.0,0.026,0.05,0.2,0,7,0,general,cloud,8
+How does TCP vs UDP work?,0.02,0.0,0.142,0.05,0.45,0,6,0,general,cloud,4
+My email is user800280@example.com. Can you draft a polite follow-up message?,0.9,0.75,0.041,0.05,0.2,0,11,1,general,edge,32
+Is this legal document safe to sign? It affects a lot of people.,0.02,0.0,0.049,0.9,0.2,1,13,0,legal,human,58
+Summarize the key concepts of the French Revolution for an exam.,0.02,0.0,0.161,0.05,0.2,0,11,0,general,cloud,10
+Why is quantum computing important?,0.02,0.0,0.139,0.05,0.45,0,5,0,general,cloud,11
+"Hi, should we sign this agreement given the liability clauses?",0.02,0.0,0.068,0.9,0.2,1,10,0,legal,human,60
+Here is our proprietary employee salary report. Extract the main points.,0.95,0.9,0.041,0.25,0.2,0,11,0,financial,edge,30

@@ -1,0 +1,91 @@
+# ==========================================
+# PrivEdge - Root Git Ignore
+# ==========================================
+
+# ==========================================
+# BACKEND - Python
+# ==========================================
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+
+# Python cache
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+
+# Pytest cache
+backend/.pytest_cache/
+
+# Environment / secrets
+backend/.env
+
+# Local databases
+backend/*.db
+backend/**/*.db
+backend/*.sqlite3
+backend/**/*.sqlite3
+
+# Logs
+backend/*.log
+backend/**/*.log
+
+# ML temporary model files
+backend/*.pkl
+backend/**/*.pkl
+
+
+# ==========================================
+# FRONTEND - Node / Vite
+# ==========================================
+
+# Dependencies
+frontend/node_modules/
+
+# Production build
+frontend/dist/
+frontend/build/
+
+# Cache
+frontend/.cache/
+frontend/.vite/
+
+# Local environment files
+frontend/.env.local
+frontend/.env.*.local
+
+# Build information
+frontend/*.tsbuildinfo
+frontend/**/*.tsbuildinfo
+
+# Vite generated files
+frontend/vite.config.*.timestamp-*
+
+# Logs
+frontend/*-debug.log*
+frontend/logs/
+frontend/*.log
+frontend/**/*.log
+
+# Temporary files
+frontend/.tmp-*
+
+
+# ==========================================
+# GENERAL
+# ==========================================
+
+*.pyc
+__pycache__/
+.pytest_cache/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

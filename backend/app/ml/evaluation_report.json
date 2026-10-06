@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-10-06T02:28:23.895141+00:00",
+  "description": "Hand-written, out-of-distribution test set (NOT generated from the training templates in generate_dataset.py), used to measure genuine generalization rather than the near-perfect in-distribution numbers in metrics.json. Includes deliberately tricky/borderline cases expected to expose real analyzer limits.",
+  "case_count": 34,
+  "results": {
+    "rule": {
+      "router": "rule",
+      "cases": 34,
+      "correct": 33,
+      "accuracy": 0.9706,
+      "per_route_recall": {
+        "cloud": {
+          "correct": 14,
+          "total": 15
+        },
+        "edge": {
+          "correct": 11,
+          "total": 11
+        },
+        "human": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "privacy_routing_rate": {
+        "description": "Of sensitive/high-risk cases (expected edge or human), how many were correctly kept off Cloud.",
+        "kept_off_cloud": 19,
+        "sensitive_total": 19,
+        "rate": 1.0
+      },
+      "misclassifications": [
+        {
+          "query": "Write a confidential-sounding spy story.",
+          "expected": "cloud",
+          "got": "edge"
+        }
+      ]
+    },
+    "ml": {
+      "router": "ml",
+      "cases": 34,
+      "correct": 31,
+      "accuracy": 0.9118,
+      "per_route_recall": {
+        "cloud": {
+          "correct": 12,
+          "total": 15
+        },
+        "edge": {
+          "correct": 11,
+          "total": 11
+        },
+        "human": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "privacy_routing_rate": {
+        "description": "Of sensitive/high-risk cases (expected edge or human), how many were correctly kept off Cloud.",
+        "kept_off_cloud": 19,
+        "sensitive_total": 19,
+        "rate": 1.0
+      },
+      "misclassifications": [
+        {
+          "query": "What is the difference between TCP and UDP?",
+          "expected": "cloud",
+          "got": "edge"
+        },
+        {
+          "query": "Write a confidential-sounding spy story.",
+          "expected": "cloud",
+          "got": "edge"
+        },
+        {
+          "query": "Explain what patient confidentiality means.",
+          "expected": "cloud",
+          "got": "edge"
+        }
+      ]
+    }
+  }
+}

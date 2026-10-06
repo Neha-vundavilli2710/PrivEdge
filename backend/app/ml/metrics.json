@@ -1,0 +1,242 @@
+{
+  "dataset_rows": 658,
+  "train_rows": 458,
+  "test_rows": 200,
+  "note": "Synthetic dataset: labels represent the project's INTENDED routing policy per query template, not real production traffic. Split is grouped by template_id so no test query's template was seen during training. Near-perfect scores reflect that privacy/risk/complexity features are themselves deterministic functions of the text (computed by the same analyzers used in production), so templates are highly separable by construction - see evaluation_report.json for a harder, hand-written out-of-distribution test with genuinely ambiguous queries and real misclassifications.",
+  "models": [
+    {
+      "model": "LogisticRegression",
+      "accuracy": 0.975,
+      "precision_macro": 0.9524,
+      "recall_macro": 0.983,
+      "f1_macro": 0.9656,
+      "per_class": {
+        "cloud": {
+          "precision": 1.0,
+          "recall": 0.949,
+          "f1": 0.9738,
+          "support": 98
+        },
+        "edge": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 72
+        },
+        "human": {
+          "precision": 0.8571,
+          "recall": 1.0,
+          "f1": 0.9231,
+          "support": 30
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "cloud",
+          "edge",
+          "human"
+        ],
+        "matrix": [
+          [
+            93,
+            0,
+            5
+          ],
+          [
+            0,
+            72,
+            0
+          ],
+          [
+            0,
+            0,
+            30
+          ]
+        ]
+      }
+    },
+    {
+      "model": "DecisionTree",
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "per_class": {
+        "cloud": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 98
+        },
+        "edge": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 72
+        },
+        "human": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 30
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "cloud",
+          "edge",
+          "human"
+        ],
+        "matrix": [
+          [
+            98,
+            0,
+            0
+          ],
+          [
+            0,
+            72,
+            0
+          ],
+          [
+            0,
+            0,
+            30
+          ]
+        ]
+      }
+    },
+    {
+      "model": "RandomForest",
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "per_class": {
+        "cloud": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 98
+        },
+        "edge": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 72
+        },
+        "human": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 30
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "cloud",
+          "edge",
+          "human"
+        ],
+        "matrix": [
+          [
+            98,
+            0,
+            0
+          ],
+          [
+            0,
+            72,
+            0
+          ],
+          [
+            0,
+            0,
+            30
+          ]
+        ]
+      }
+    }
+  ],
+  "rule_baseline": {
+    "model": "RuleBasedRouter (baseline)",
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "per_class": {
+      "cloud": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 98
+      },
+      "edge": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 72
+      },
+      "human": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 30
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "cloud",
+        "edge",
+        "human"
+      ],
+      "matrix": [
+        [
+          98,
+          0,
+          0
+        ],
+        [
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          0,
+          30
+        ]
+      ]
+    }
+  },
+  "selected_model": "RandomForest",
+  "cross_validation": {
+    "method": "GroupKFold(n_splits=5)",
+    "metric": "f1_macro",
+    "scores": [
+      0.9877,
+      0.9085,
+      0.9072,
+      1.0,
+      1.0
+    ],
+    "mean": 0.9607,
+    "std": 0.0434
+  },
+  "rf_feature_importance": {
+    "latency": 0.1692,
+    "human_required": 0.1676,
+    "risk": 0.1566,
+    "privacy": 0.1299,
+    "sensitivity": 0.127,
+    "complexity": 0.105,
+    "query_length": 0.0593,
+    "domain_general": 0.0331,
+    "contains_pii": 0.0308,
+    "domain_legal": 0.0088,
+    "domain_financial": 0.0052,
+    "domain_medical": 0.0037,
+    "domain_hr": 0.0037,
+    "domain_safety": 0.0
+  }
+}
