@@ -50,7 +50,7 @@ export default function UserDashboard() {
                   <Pie data={routingData} cx="50%" cy="50%" innerRadius={45} outerRadius={70} dataKey="value" strokeWidth={0}>
                     {routingData.map((entry, i) => <Cell key={i} fill={entry.color} />)}
                   </Pie>
-                  <Tooltip formatter={(v: number) => [`${v}%`, '']} />
+                  <Tooltip formatter={(v) => [`${v ?? 0}%`, '']} />
                 </PieChart>
               </ResponsiveContainer>
             </div>

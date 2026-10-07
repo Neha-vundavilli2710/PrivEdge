@@ -51,7 +51,7 @@ export default function ReviewerAnalytics() {
                     <Pie data={outcomeData} cx="50%" cy="50%" innerRadius={50} outerRadius={80} dataKey="value" strokeWidth={0}>
                       {outcomeData.map((e, i) => <Cell key={i} fill={e.color} />)}
                     </Pie>
-                    <Tooltip formatter={(v: number) => [`${v}%`, '']} />
+                    <Tooltip formatter={(v) => [`${v ?? 0}%`, '']} />
                   </PieChart>
                 </ResponsiveContainer>
               </div>

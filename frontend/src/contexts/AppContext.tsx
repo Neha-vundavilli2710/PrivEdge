@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, ReactNode, Dispatch, SetStateAction } from 'react';
 import { api, getToken, setToken } from '../api/client';
 
 export type Role = 'user' | 'reviewer' | 'admin';
@@ -18,7 +18,7 @@ interface AppCtx {
   /** kept for older components: setAuthenticated(false) logs out */
   setAuthenticated: (v: boolean) => void;
   sidebarOpen: boolean;
-  setSidebarOpen: (v: boolean) => void;
+  setSidebarOpen: Dispatch<SetStateAction<boolean>>;
 }
 
 const noop = async () => { throw new Error('AppProvider missing'); };

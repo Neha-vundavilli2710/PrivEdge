@@ -20,8 +20,13 @@ export default function UserDetail() {
   const [d, setD] = useState<Detail | null>(null);
   const [error, setError] = useState('');
 
-  const load = () => id && api.get<Detail>(`/admin/users/${id}`).then(setD).catch(e => setError(e.message));
-  useEffect(load, [id]);
+  const load = () => {
+  if (!id) return;
+  api.get<Detail>(`/admin/users/${id}`).then(setD).catch(e => setError(e.message));
+};
+useEffect(() => {
+  load();
+}, [id]);
 
   async function setRole(role: string) {
     try { await api.patch(`/admin/users/${id}`, { role }); load(); } catch (e: any) { setError(e.message); }

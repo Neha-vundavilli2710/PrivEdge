@@ -39,7 +39,7 @@ export default function Insights() {
                     <Pie data={routingData} cx="50%" cy="50%" innerRadius={50} outerRadius={80} dataKey="value" strokeWidth={0}>
                       {routingData.map((e, i) => <Cell key={i} fill={e.color} />)}
                     </Pie>
-                    <Tooltip formatter={(v: number) => [`${v}%`, '']} />
+                    <Tooltip formatter={(v) => [`${v ?? 0}%`, '']} />
                   </PieChart>
                 </ResponsiveContainer>
               </div>
@@ -105,7 +105,7 @@ export default function Insights() {
                   <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
                   <XAxis dataKey="time" tick={{ fontSize: 12, fill: 'var(--muted-foreground)' }} axisLine={false} tickLine={false} />
                   <YAxis tick={{ fontSize: 12, fill: 'var(--muted-foreground)' }} axisLine={false} tickLine={false} unit="s" />
-                  <Tooltip formatter={(v: number) => [`${v}s`, 'Avg Response']} />
+                  <Tooltip formatter={(v) => [`${v ?? 0}s`, 'Avg Response']} />
                   <Line type="monotone" dataKey="avg" stroke="#2563EB" strokeWidth={2.5} dot={false} />
                 </LineChart>
               </ResponsiveContainer>

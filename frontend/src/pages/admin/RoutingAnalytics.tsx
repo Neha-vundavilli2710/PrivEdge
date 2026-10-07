@@ -58,7 +58,7 @@ export default function RoutingAnalytics() {
                     <Pie data={data} cx="50%" cy="50%" innerRadius={40} outerRadius={65} dataKey="value" strokeWidth={0}>
                       {data.map((_, i) => <Cell key={i} fill={colors[i]} />)}
                     </Pie>
-                    <Tooltip formatter={(v: number) => [`${v}%`, '']} />
+                    <Tooltip formatter={(v) => [`${v ?? 0}%`, '']} />
                   </PieChart>
                 </ResponsiveContainer>
               </div>
