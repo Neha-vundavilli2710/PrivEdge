@@ -27,7 +27,6 @@ const adminNav = [
 ];
 
 const navMap: Record<Role, typeof userNav> = { user: userNav, reviewer: reviewerNav, admin: adminNav };
-const settingsMap: Record<Role, string> = { user: '/user/settings', reviewer: '/reviewer/settings', admin: '/admin/settings' };
 
 export default function Sidebar() {
   const { role, setAuthenticated, sidebarOpen, setSidebarOpen } = useApp();

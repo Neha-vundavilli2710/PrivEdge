@@ -1,21 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { api } from '../../api/client';
 import Layout from '../../components/layout/Layout';
 import { useTheme } from '../../contexts/ThemeContext';
 import { Sun, Moon, Lock } from 'lucide-react';
 
-function Toggle({ checked, onChange }: { checked: boolean; onChange: () => void }) {
-  return <button className={`toggle ${checked ? 'active' : ''}`} onClick={onChange} />;
-}
-
 export default function UserSettings() {
   const { theme, toggle } = useTheme();
+  const { pathname } = useLocation();
+  const roleBase = pathname.split('/')[1] || 'user';
   // Notification / privacy preferences are stored in this browser only (no backend enforcement yet).
-  const load = <T,>(k: string, d: T): T => { try { return JSON.parse(localStorage.getItem(k) || '') as T; } catch { return d; } };
-  const [notifs, setNotifs] = useState(() => load('pe_notifs', { email: true, review: true, system: false }));
-  const [privacy, setPrivacy] = useState(() => load('pe_privacy', { saveConversations: true, analytics: true }));
-  useEffect(() => localStorage.setItem('pe_notifs', JSON.stringify(notifs)), [notifs]);
-  useEffect(() => localStorage.setItem('pe_privacy', JSON.stringify(privacy)), [privacy]);
   const [pw, setPw] = useState({ current: '', next: '' });
   const [pwOpen, setPwOpen] = useState(false);
   const [pwMsg, setPwMsg] = useState<{ ok: boolean; text: string } | null>(null);
@@ -25,7 +19,7 @@ export default function UserSettings() {
   }
 
   return (
-    <Layout breadcrumb={[{ label: 'Dashboard', to: '/user/dashboard' }, { label: 'Settings' }]}>
+    <Layout breadcrumb={[{ label: 'Dashboard', to: `/${roleBase}/dashboard` }, { label: 'Settings' }]}>
       <div className="flex flex-col gap-5 max-w-2xl">
         <div>
           <h1 className="font-bold mb-1" style={{ fontSize: 26, color: 'var(--foreground)' }}>Settings</h1>

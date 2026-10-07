@@ -31,7 +31,6 @@ export default function AdminSettings() {
   const [notifs, setNotifs] = useState({ highRisk: true, systemAlerts: true, reviewBacklog: true });
   const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState('');
-  const enforced = new Set(data?.enforced ?? []);
 
   useEffect(() => {
     if (!data) return;
@@ -110,12 +109,12 @@ export default function AdminSettings() {
             <div className="grid grid-cols-2 gap-3">
               <div>
                 <label className="block text-sm font-500 mb-1.5" style={{ fontWeight: 500, color: 'var(--foreground)' }}>Context Window (approx. tokens)</label>
-                <input className="input-field" value={ai.contextWindow} onChange={e => setAi(a => ({ ...a, contextWindow: e.target.value }))} />
+                <input className="input-field" type="number" min="256" max="32768" value={ai.contextWindow} onChange={e => setAi(a => ({ ...a, contextWindow: e.target.value }))} />
                 <p className="text-xs mt-1" style={{ color: 'var(--muted-foreground)' }}>Caps how much prior conversation is sent to the model (smaller = less history, faster/cheaper)</p>
               </div>
               <div>
                 <label className="block text-sm font-500 mb-1.5" style={{ fontWeight: 500, color: 'var(--foreground)' }}>Temperature</label>
-                <input className="input-field" value={ai.temperature} onChange={e => setAi(a => ({ ...a, temperature: e.target.value }))} />
+                <input className="input-field" type="number" min="0" max="1.5" step="0.1" value={ai.temperature} onChange={e => setAi(a => ({ ...a, temperature: e.target.value }))} />
               </div>
             </div>
           </div>
