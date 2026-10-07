@@ -148,10 +148,6 @@ export default function Chatbot() {
               <div className="font-semibold" style={{ color: 'var(--foreground)' }}>PrivEdge AI</div>
               <div className="text-xs" style={{ color: 'var(--muted-foreground)' }}>Privacy-aware intelligent routing</div>
             </div>
-            <div className="ml-auto flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full animate-pulse-dot" style={{ background: 'var(--edge-color)' }} />
-              <span className="text-xs" style={{ color: 'var(--edge-color)' }}>Online</span>
-            </div>
           </div>
 
           {/* Messages */}

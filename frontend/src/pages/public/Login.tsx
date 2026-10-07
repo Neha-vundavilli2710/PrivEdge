@@ -138,17 +138,6 @@ export default function Login() {
               >
                 Password
               </label>
-
-              <a
-                href="#"
-                className="text-xs font-500"
-                style={{
-                  color: 'var(--primary)',
-                  fontWeight: 500,
-                }}
-              >
-                Forgot password?
-              </a>
             </div>
 
             <div className="relative">
@@ -179,23 +168,6 @@ export default function Login() {
                 )}
               </button>
             </div>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <input
-              type="checkbox"
-              id="remember"
-              className="w-4 h-4 rounded"
-              style={{ accentColor: 'var(--primary)' }}
-            />
-
-            <label
-              htmlFor="remember"
-              className="text-sm"
-              style={{ color: 'var(--muted-foreground)' }}
-            >
-              Remember me
-            </label>
           </div>
 
           <button

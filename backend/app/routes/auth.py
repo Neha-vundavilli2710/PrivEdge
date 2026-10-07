@@ -1,3 +1,5 @@
+from datetime import datetime, timezone
+
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
@@ -35,6 +37,7 @@ def login(body: LoginIn, db: Session = Depends(get_db)):
         raise HTTPException(401, "Invalid email or password")
     if not u.is_active:
         raise HTTPException(403, "This account has been deactivated")
+    u.last_active_at = datetime.now(timezone.utc)
     audit(db, u.user_id, "login", u.email)
     return {"access_token": create_access_token(u.user_id, u.role), "token_type": "bearer", "user": user_out(u)}
 

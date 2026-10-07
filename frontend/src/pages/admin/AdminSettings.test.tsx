@@ -19,7 +19,7 @@ import { api } from '../../api/client';
 const SETTINGS = {
   settings: {
     routing: { edgeEnabled: true, cloudEnabled: true, humanEnabled: true, autoRoute: true },
-    security: { mfa: false, auditLog: true, sessionTimeout: true },
+    security: { auditLog: true, sessionTimeout: true },
     ai: { ragEnabled: true, contextWindow: '4096', temperature: '0.7' },
     notifs: { highRisk: true, systemAlerts: true, reviewBacklog: true },
   },
@@ -71,10 +71,5 @@ describe('AdminSettings', () => {
     await screen.findByText('Automatic Routing');
     await userEvent.click(screen.getByRole('button', { name: /save all settings/i }));
     expect(await screen.findByText('Could not save settings')).toBeInTheDocument();
-  });
-
-  it('labels MFA as not yet enforced', async () => {
-    renderWithProviders(<AdminSettings />, { route: '/admin/settings' });
-    expect(await screen.findByText(/not yet enforced by the backend/i)).toBeInTheDocument();
   });
 });

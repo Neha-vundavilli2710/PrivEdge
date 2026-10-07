@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { api } from '../../api/client';
 import Layout from '../../components/layout/Layout';
 import { useTheme } from '../../contexts/ThemeContext';
-import { Sun, Moon, Shield, Bell, Eye, Lock } from 'lucide-react';
+import { Sun, Moon, Lock } from 'lucide-react';
 
 function Toggle({ checked, onChange }: { checked: boolean; onChange: () => void }) {
   return <button className={`toggle ${checked ? 'active' : ''}`} onClick={onChange} />;
@@ -48,28 +48,7 @@ export default function UserSettings() {
           </div>
         </div>
 
-        {/* Notifications */}
-        <div className="card p-6">
-          <div className="flex items-center gap-3 mb-4">
-            <Bell size={18} style={{ color: 'var(--primary)' }} />
-            <h3 className="font-semibold" style={{ fontSize: 16, color: 'var(--foreground)' }}>Notifications</h3>
-          </div>
-          <div className="flex flex-col gap-4">
-            {[
-              { key: 'email', label: 'Email Notifications', desc: 'Receive updates about your queries via email' },
-              { key: 'review', label: 'Review Notifications', desc: 'Get notified when your queries are reviewed' },
-              { key: 'system', label: 'System Notifications', desc: 'Important system and maintenance updates' },
-            ].map(({ key, label, desc }) => (
-              <div key={key} className="flex items-center justify-between">
-                <div>
-                  <div className="text-sm font-500" style={{ fontWeight: 500, color: 'var(--foreground)' }}>{label}</div>
-                  <div className="text-xs mt-0.5" style={{ color: 'var(--muted-foreground)' }}>{desc}</div>
-                </div>
-                <Toggle checked={notifs[key as keyof typeof notifs]} onChange={() => setNotifs(n => ({ ...n, [key]: !n[key as keyof typeof notifs] }))} />
-              </div>
-            ))}
-          </div>
-        </div>
+        
 
         {/* Security */}
         <div className="card p-6">
@@ -90,28 +69,6 @@ export default function UserSettings() {
               </div>
             )}
             {pwMsg && <div className="text-sm" style={{ color: pwMsg.ok ? 'var(--edge-color)' : 'var(--error)' }}>{pwMsg.text}</div>}
-          </div>
-        </div>
-
-        {/* Privacy */}
-        <div className="card p-6">
-          <div className="flex items-center gap-3 mb-4">
-            <Eye size={18} style={{ color: 'var(--primary)' }} />
-            <h3 className="font-semibold" style={{ fontSize: 16, color: 'var(--foreground)' }}>Privacy</h3>
-          </div>
-          <div className="flex flex-col gap-4">
-            {[
-              { key: 'saveConversations', label: 'Save Conversation History', desc: 'Preference saved in this browser' },
-              { key: 'analytics', label: 'Usage Analytics', desc: 'Help improve PrivEdge with anonymized usage data' },
-            ].map(({ key, label, desc }) => (
-              <div key={key} className="flex items-center justify-between">
-                <div>
-                  <div className="text-sm font-500" style={{ fontWeight: 500, color: 'var(--foreground)' }}>{label}</div>
-                  <div className="text-xs mt-0.5" style={{ color: 'var(--muted-foreground)' }}>{desc}</div>
-                </div>
-                <Toggle checked={privacy[key as keyof typeof privacy]} onChange={() => setPrivacy(p => ({ ...p, [key]: !p[key as keyof typeof privacy] }))} />
-              </div>
-            ))}
           </div>
         </div>
       </div>

@@ -129,7 +129,7 @@ export default function KnowledgeBase() {
             <input className="input-field pl-9" placeholder="Search documents..." value={search} onChange={e => setSearch(e.target.value)} />
           </div>
           <div className="flex flex-wrap gap-1 p-1 rounded-xl" style={{ background: 'var(--muted)' }}>
-            {categories.slice(0, 5).map(c => (
+            {categories.map(c => (
               <button key={c} onClick={() => setCat(c)} className={`tab ${cat === c ? 'active' : ''}`} style={{ fontSize: 12 }}>{c}</button>
             ))}
           </div>
@@ -154,7 +154,7 @@ export default function KnowledgeBase() {
               <p className="text-sm leading-relaxed mb-3" style={{ color: 'var(--muted-foreground)' }}>{doc.desc}</p>
               <div className="flex items-center justify-between">
                 <span className="text-xs" style={{ color: 'var(--muted-foreground)' }}>Updated {doc.updated}</span>
-                <button className="flex items-center gap-1 text-xs font-500" style={{ color: 'var(--primary)', fontWeight: 500 }}>
+                <button onClick={() => open(doc.id)} className="flex items-center gap-1 text-xs font-500" style={{ color: 'var(--primary)', fontWeight: 500 }}>
                   View <ChevronRight size={12} />
                 </button>
               </div>

@@ -150,7 +150,7 @@ export default function UserDashboard() {
                     <td><RouteBadge route={c.route} size="sm" /></td>
                     <td><span className="text-xs" style={{ color: 'var(--muted-foreground)' }}>{timeAgo(c.updated_at)}</span></td>
                     <td>
-                      <Link to="/user/chatbot" className="btn-ghost py-1.5 px-3 text-xs">Open</Link>
+                      <Link to={`/user/chatbot?c=${c.id}`} className="btn-ghost py-1.5 px-3 text-xs">Open</Link>
                     </td>
                   </tr>
                 ))}

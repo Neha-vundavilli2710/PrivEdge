@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { Sun, Moon, Bell, Search, ChevronDown, Menu, User, Settings, LogOut, Check, AlertTriangle, BookOpen, Shield, BellOff } from 'lucide-react';
+import { Sun, Moon, Bell,  ChevronDown, Menu, User, Settings, LogOut, Check, AlertTriangle, BookOpen, Shield, BellOff } from 'lucide-react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { useApp } from '../../contexts/AppContext';
 import { useNavigate } from 'react-router-dom';
@@ -21,7 +21,6 @@ export default function TopBar({ title, subtitle, breadcrumb }: Props) {
   const { userName, userEmail, setSidebarOpen, setAuthenticated, role } = useApp();
   const [showNotif, setShowNotif] = useState(false);
   const [showProfile, setShowProfile] = useState(false);
-  const [showSearch, setShowSearch] = useState(false);
   const notifRef = useRef<HTMLDivElement>(null);
   const profileRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
@@ -77,22 +76,6 @@ export default function TopBar({ title, subtitle, breadcrumb }: Props) {
 
       {/* Right controls */}
       <div className="flex items-center gap-1">
-        {/* Search */}
-        <div className="relative">
-          {showSearch ? (
-            <input
-              autoFocus
-              placeholder="Search PrivEdge..."
-              onBlur={() => setShowSearch(false)}
-              className="w-56 px-3 py-1.5 rounded-lg text-sm outline-none"
-              style={{ background: 'var(--muted)', border: '1px solid var(--border)', color: 'var(--foreground)' }}
-            />
-          ) : (
-            <button className="p-2 rounded-lg hover:bg-[var(--muted)] transition-colors" onClick={() => setShowSearch(true)}>
-              <Search size={17} style={{ color: 'var(--muted-foreground)' }} />
-            </button>
-          )}
-        </div>
 
         {/* Notifications */}
         <div className="relative" ref={notifRef}>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { api } from '../../api/client';
 import { useApp, AuthUser } from '../../contexts/AppContext';
+import { useLocation } from 'react-router-dom';
 import { useApi } from '../../hooks/useApi';
 import { UserStats, EMPTY_USER_STATS } from '../../api/types';
 import { fmtDate, timeAgo } from '../../utils/time';
@@ -9,6 +10,8 @@ import { Edit2, MessageSquare, Cpu, Cloud, UserCheck, Calendar } from 'lucide-re
 
 export default function UserProfile() {
   const { user, setUser } = useApp();
+  const { pathname } = useLocation();
+  const roleBase = pathname.split('/')[1] || 'user';
   const { data } = useApi<UserStats>('/dashboard/statistics');
   const st = data ?? EMPTY_USER_STATS;
   const [editing, setEditing] = useState(false);
@@ -17,12 +20,12 @@ export default function UserProfile() {
   const [msg, setMsg] = useState('');
   const initials = (user?.name ?? '?').split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase();
   async function save() {
-    try { setUser(await api.patch<AuthUser>('/auth/me', { name, email })); setEditing(false); setMsg(''); }
+    try { setUser(await api.patch<AuthUser>('/auth/me', { name, email })); setEditing(false); setMsg('Profile updated successfully.');}
     catch (e: any) { setMsg(e.message); }
   }
 
   return (
-    <Layout breadcrumb={[{ label: 'Dashboard', to: '/user/dashboard' }, { label: 'Profile' }]}>
+    <Layout breadcrumb={[{ label: 'Dashboard', to: `/${roleBase}/dashboard` }, { label: 'Profile' }]}>
       <div className="flex flex-col gap-5 max-w-3xl">
         {/* Profile Card */}
         <div className="card p-6">
@@ -52,7 +55,7 @@ export default function UserProfile() {
                   </div>
                   <div>
                     <label className="block text-xs font-600 mb-1" style={{ fontWeight: 600, color: 'var(--muted-foreground)' }}>Email</label>
-                    <input className="input-field" value={email} onChange={e => setEmail(e.target.value)} />
+                    <input type="email" className="input-field" value={email} onChange={e => setEmail(e.target.value)} />
                   </div>
                   <div className="col-span-2 flex gap-2">
                     <button className="btn-primary" onClick={save}>Save Changes</button>{msg && <span className="text-sm self-center" style={{ color: 'var(--error)' }}>{msg}</span>}

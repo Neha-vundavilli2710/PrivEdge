@@ -30,7 +30,7 @@ def get_current_user(creds: HTTPAuthorizationCredentials | None = Depends(bearer
     if settings_store.get_all(db)["security"]["sessionTimeout"]:
         now = datetime.now(timezone.utc)
         idle_limit = timedelta(minutes=get_settings().session_idle_minutes)
-        if user.last_active_at and (now - user.last_active_at) > idle_limit:
+        if user.last_active_at and (now - user.last_active_at.replace(tzinfo=timezone.utc)) > idle_limit:
             raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Session expired due to inactivity. Please log in again.")
         user.last_active_at = now
         db.commit()

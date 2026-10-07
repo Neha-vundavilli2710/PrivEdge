@@ -191,7 +191,7 @@ export default function Landing() {
             {[
               { icon: Eye, title: 'Privacy-Aware Processing', desc: 'Sensitive data never leaves the edge when privacy demands it.', color: '#7C3AED', bg: '#EDE9FE' },
               { icon: Shield, title: 'Data Masking', desc: 'Personally identifiable information is masked before cloud processing.', color: '#2563EB', bg: '#DBEAFE' },
-              { icon: Lock, title: 'Secure Authentication', desc: 'Multi-factor authentication and secure session management.', color: '#16A34A', bg: '#DCFCE7' },
+              { icon: Lock, title: 'Secure Authentication', desc: 'Secure authentication, role-based access control, and idle session management.', color: '#16A34A', bg: '#DCFCE7' },
               { icon: UserCheck, title: 'Role-Based Authorization', desc: 'Fine-grained access controls for users, reviewers, and admins.', color: '#F59E0B', bg: '#FEF3C7' },
               { icon: Globe, title: 'Encryption', desc: 'End-to-end encryption for all data in transit and at rest.', color: '#0891B2', bg: '#CFFAFE' },
               { icon: CheckCircle, title: 'Audit Logging', desc: 'Complete audit trail of all queries, routing decisions, and reviews.', color: '#DC2626', bg: '#FEE2E2' },
@@ -217,25 +217,21 @@ export default function Landing() {
             <h2 className="font-bold mb-3" style={{ fontSize: 36, color: 'var(--foreground)' }}>Have questions about PrivEdge?</h2>
             <p style={{ color: 'var(--muted-foreground)' }}>We'd love to hear from you.</p>
           </div>
-          <div className="card p-8">
-            <div className="flex flex-col gap-4">
-              <div>
-                <label className="block text-sm font-500 mb-2" style={{ fontWeight: 500, color: 'var(--foreground)' }}>Name</label>
-                <input className="input-field" placeholder="Your full name" />
-              </div>
-              <div>
-                <label className="block text-sm font-500 mb-2" style={{ fontWeight: 500, color: 'var(--foreground)' }}>Email</label>
-                <input className="input-field" type="email" placeholder="your@email.com" />
-              </div>
-              <div>
-                <label className="block text-sm font-500 mb-2" style={{ fontWeight: 500, color: 'var(--foreground)' }}>Message</label>
-                <textarea className="input-field" rows={4} placeholder="Tell us about your use case..." style={{ resize: 'vertical' }} />
-              </div>
-              <button className="btn-primary justify-center w-full" style={{ padding: '12px 24px', fontSize: 15 }}>
-                Send Message
-              </button>
-            </div>
-          </div>
+          <div className="card p-8 text-center">
+  <h3
+    className="text-lg font-semibold mb-2"
+    style={{ color: 'var(--foreground)' }}
+  >
+    Have questions about PrivEdge?
+  </h3>
+
+  <p
+    className="text-sm"
+    style={{ color: 'var(--muted-foreground)' }}
+  >
+    Explore the platform or sign in to start using privacy-aware AI.
+  </p>
+</div>
         </div>
       </section>
 

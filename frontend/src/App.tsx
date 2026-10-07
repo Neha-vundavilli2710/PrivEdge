@@ -69,10 +69,12 @@ function AppRoutes() {
       <Route path="/reviewer/review/:id" element={<AuthGuard><ReviewQuery /></AuthGuard>} />
       <Route path="/reviewer/history" element={<AuthGuard><ReviewHistory /></AuthGuard>} />
       <Route path="/reviewer/analytics" element={<AuthGuard><ReviewerAnalytics /></AuthGuard>} />
+      <Route path="/reviewer/profile" element={<AuthGuard><UserProfile /></AuthGuard>} />
       <Route path="/reviewer/settings" element={<AuthGuard><UserSettings /></AuthGuard>} />
 
       {/* Admin */}
       <Route path="/admin/dashboard" element={<AuthGuard><AdminDashboard /></AuthGuard>} />
+      <Route path="/admin/profile" element={<AuthGuard><UserProfile /></AuthGuard>} />
       <Route path="/admin/users" element={<AuthGuard><UserManagement /></AuthGuard>} />
       <Route path="/admin/users/:id" element={<AuthGuard><UserDetail /></AuthGuard>} />
       <Route path="/admin/routing" element={<AuthGuard><RoutingAnalytics /></AuthGuard>} />

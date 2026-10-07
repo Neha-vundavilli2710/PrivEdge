@@ -30,7 +30,6 @@ export default function QueryLogs() {
           </div>
           <select className="select-field w-auto" style={{ minWidth: 140 }} value={routeFilter} onChange={e => setRouteFilter(e.target.value)}>
             <option value="All">All</option>
-            <option value="">All</option>
             <option value="edge">Edge AI</option>
             <option value="cloud">Cloud AI</option>
             <option value="human">Human Review</option>

@@ -26,7 +26,7 @@ interface Settings { routing: any; security: any; ai: any; notifs: any }
 export default function AdminSettings() {
   const { data } = useApi<{ settings: Settings; enforced: string[]; not_enforced: string[] }>('/admin/settings');
   const [routing, setRouting] = useState({ edgeEnabled: true, cloudEnabled: true, humanEnabled: true, autoRoute: true });
-  const [security, setSecurity] = useState({ mfa: false, auditLog: true, sessionTimeout: true });
+  const [security, setSecurity] = useState({ auditLog: true, sessionTimeout: true });
   const [ai, setAi] = useState({ ragEnabled: true, contextWindow: '4096', temperature: '0.7' });
   const [notifs, setNotifs] = useState({ highRisk: true, systemAlerts: true, reviewBacklog: true });
   const [saving, setSaving] = useState(false);
@@ -84,7 +84,6 @@ export default function AdminSettings() {
         {/* Security */}
         <Section icon={Shield} iconColor="#7C3AED" title="Security">
           {[
-            { key: 'mfa', label: 'Require Multi-Factor Authentication', desc: 'Not yet enforced by the backend - this toggle is a UI preference only for now' },
             { key: 'auditLog', label: 'Comprehensive Audit Logging', desc: 'Log all routing decisions, logins, and admin actions to the audit log' },
             { key: 'sessionTimeout', label: 'Idle Session Timeout', desc: 'Require re-login after a period of inactivity, independent of the token\u2019s own expiry (server-configured idle window)' },
           ].map(({ key, label, desc }) => (

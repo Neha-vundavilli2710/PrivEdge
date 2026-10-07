@@ -42,7 +42,6 @@ export default function ReviewHistory() {
                   <th>Risk</th>
                   <th>Date</th>
                   <th>Review Time</th>
-                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -56,7 +55,6 @@ export default function ReviewHistory() {
                     <td><span className={`badge ${riskBadge(h.risk)}`}>{h.risk}</span></td>
                     <td><span className="text-sm" style={{ color: 'var(--muted-foreground)' }}>{fmtDate(h.completed_at)}</span></td>
                     <td><span className="text-sm" style={{ color: 'var(--muted-foreground)' }}>{h.review_minutes != null ? `${h.review_minutes} min` : '—'}</span></td>
-                    <td><button className="btn-ghost py-1.5 px-3" style={{ fontSize: 12 }}>View</button></td>
                   </tr>
                 ))}
               </tbody>

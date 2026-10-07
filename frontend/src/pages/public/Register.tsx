@@ -149,31 +149,6 @@ export default function Register() {
             />
           </div>
 
-          <div className="flex items-start gap-2">
-            <input
-              type="checkbox"
-              id="terms"
-              className="w-4 h-4 mt-0.5 rounded"
-              style={{ accentColor: 'var(--primary)' }}
-              required
-            />
-
-            <label
-              htmlFor="terms"
-              className="text-sm leading-relaxed"
-              style={{ color: 'var(--muted-foreground)' }}
-            >
-              I agree to the{' '}
-              <a href="#" style={{ color: 'var(--primary)', fontWeight: 500 }}>
-                Terms of Service
-              </a>{' '}
-              and{' '}
-              <a href="#" style={{ color: 'var(--primary)', fontWeight: 500 }}>
-                Privacy Policy
-              </a>
-            </label>
-          </div>
-
           <button
             type="submit"
             className="btn-primary justify-center w-full"
