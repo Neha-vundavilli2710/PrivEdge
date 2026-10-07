@@ -9,7 +9,6 @@ export default function UserSettings() {
   const { theme, toggle } = useTheme();
   const { pathname } = useLocation();
   const roleBase = pathname.split('/')[1] || 'user';
-  // Notification / privacy preferences are stored in this browser only (no backend enforcement yet).
   const [pw, setPw] = useState({ current: '', next: '' });
   const [pwOpen, setPwOpen] = useState(false);
   const [pwMsg, setPwMsg] = useState<{ ok: boolean; text: string } | null>(null);

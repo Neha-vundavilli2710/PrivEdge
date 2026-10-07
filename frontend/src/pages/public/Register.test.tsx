@@ -27,7 +27,6 @@ async function fillForm(name: string, email: string, password: string, confirm: 
   await userEvent.type(screen.getByPlaceholderText('you@example.com'), email);
   await userEvent.type(screen.getByPlaceholderText('At least 8 characters'), password);
   await userEvent.type(screen.getByPlaceholderText('Repeat your password'), confirm);
-  await userEvent.click(screen.getByRole('checkbox')); // required "I agree to Terms" checkbox
 }
 
 describe('Register', () => {

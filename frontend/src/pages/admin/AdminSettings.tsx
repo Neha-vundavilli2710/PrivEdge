@@ -24,7 +24,7 @@ function Section({ icon: Icon, iconColor, title, children }: any) {
 
 interface Settings { routing: any; security: any; ai: any; notifs: any }
 export default function AdminSettings() {
-  const { data } = useApi<{ settings: Settings; enforced: string[]; not_enforced: string[] }>('/admin/settings');
+  const { data } = useApi<{ settings: Settings; enforced: string[] }>('/admin/settings');
   const [routing, setRouting] = useState({ edgeEnabled: true, cloudEnabled: true, humanEnabled: true, autoRoute: true });
   const [security, setSecurity] = useState({ auditLog: true, sessionTimeout: true });
   const [ai, setAi] = useState({ ragEnabled: true, contextWindow: '4096', temperature: '0.7' });
@@ -34,7 +34,10 @@ export default function AdminSettings() {
 
   useEffect(() => {
     if (!data) return;
-    setRouting(data.settings.routing); setSecurity(data.settings.security); setAi(data.settings.ai); setNotifs(data.settings.notifs);
+    setRouting(data.settings.routing); setSecurity({
+    auditLog: data.settings.security.auditLog,
+    sessionTimeout: data.settings.security.sessionTimeout,
+}); setAi(data.settings.ai); setNotifs(data.settings.notifs);
   }, [data]);
 
   async function saveAll() {

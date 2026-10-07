@@ -730,9 +730,7 @@ The backend supports notification categories including:
 
 The corresponding notification settings control these categories.
 
-## MFA
 
-The MFA setting currently exists as a UI-level placeholder and is **not enforced by the authentication flow**.
 
 ---
 

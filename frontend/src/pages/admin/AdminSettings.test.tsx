@@ -24,7 +24,6 @@ const SETTINGS = {
     notifs: { highRisk: true, systemAlerts: true, reviewBacklog: true },
   },
   enforced: ['routing.edgeEnabled', 'routing.autoRoute', 'security.auditLog', 'security.sessionTimeout', 'ai.contextWindow'],
-  not_enforced: ['security.mfa'],
 };
 
 function rowToggle(labelText: string) {
