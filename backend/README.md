@@ -284,7 +284,7 @@ npm test
 Current verified result:
 
 ```text
-35 tests passed
+34 tests passed
 ```
 
 The frontend test suite uses:
@@ -308,9 +308,9 @@ It covers:
 
 ```text
 Backend tests:   53/53 passed
-Frontend tests:  35/35 passed
+Frontend tests:  34/34 passed
 --------------------------------
-Total:           88/88 passed
+Total:           87/87 passed
 ```
 
 ---
@@ -934,10 +934,10 @@ Backend
 53/53 tests passed
 
 Frontend
-35/35 tests passed
+34/34 tests passed
 
 Total
-88/88 automated tests passed
+87/87 automated tests passed
 ```
 
 The frontend tests are maintained separately in the frontend project.
@@ -1066,7 +1066,7 @@ User Analytics            ✓
 Settings Enforcement      ✓
 Notifications             ✓
 Backend Tests              53/53 ✓
-Frontend Tests             35/35 ✓
+Frontend Tests             34/34 ✓
 Production Build           ✓
 ```
 
