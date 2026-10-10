@@ -34,10 +34,20 @@ def generate(prompt: str, history: list[dict] | None = None, context: str = "", 
         data = r.json()
         parts = data["candidates"][0]["content"]["parts"]
         return "".join(p.get("text", "") for p in parts).strip()
+    
     except httpx.HTTPStatusError as e:
-        raise LLMUnavailable(f"Cloud AI returned an error ({e.response.status_code}).") from e
+        try:
+            detail = e.response.json().get("error", {}).get("message", "")
+        except ValueError:
+            detail = ""
+
+        safe_detail = detail[:300] if detail else "No provider details available"
+        raise LLMUnavailable(
+            f"Cloud AI returned HTTP {e.response.status_code}: {safe_detail}"
+        ) from e
     except (httpx.HTTPError, KeyError, IndexError, ValueError) as e:
         raise LLMUnavailable("Cloud AI is currently unavailable.") from e
+
 
 
 def ping() -> tuple[bool, str]:

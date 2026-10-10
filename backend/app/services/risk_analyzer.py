@@ -4,7 +4,7 @@ import re
 from dataclasses import dataclass
 
 DOMAINS = {
-    "medical": ["patient", "medication", "medicine", "diagnos", "dosage", "surgery", "procedure", "symptom", "treatment", "prescri", "drug", "disease", "clinical"],
+    "medical": ["patient", "medication", "medicine", "diagnos", "dosage", "surgery", "procedure", "symptom", "treatment", "prescri", "drug", "disease", "clinical", "chest pain", "difficulty breathing", "shortness of breath", "can't breathe", "cannot breathe", "heart attack", "stroke", "unconscious", "severe bleeding"],
     "legal": ["legal", "contract", "lawsuit", "sue ", "court", "liabilit", "attorney", "lawyer", "clause", "sign this", "agreement", "litigation", "compliance"],
     "financial": ["invest", "loan", "mortgage", "stock", "salary", "audit", "tax", "bankrupt", "portfolio", "bank", "financial"],
     "hr": ["fire ", "terminate", "employee", "promotion", "performance review", "layoff", "disciplin", "hiring"],
@@ -13,7 +13,9 @@ DOMAINS = {
 DOMAIN_BASE = {"medical": 0.35, "legal": 0.35, "financial": 0.25, "hr": 0.25, "safety": 0.45, "general": 0.05}
 
 DECISION_RX = re.compile(r"(?i)\b(should (?:i|we|this|the|he|she|they)|is it safe|safe to sign|can i safely|do i need to|must i|recommend (?:whether|if)|approve|decide|decision|undergo|authori[sz]e|is (?:this|it) (?:legal|illegal|ethical|safe)|what dose|how much .* take)\b")
-HIGH_STAKES_RX = re.compile(r"(?i)(high[- ]stakes|professional (?:judg(?:e)?ment|decision)|life[- ]or[- ]death|critical decision|ethical dilemma|legal advice|medical advice)")
+HIGH_STAKES_RX = re.compile(
+    r"(?i)(high[- ]stakes|professional (?:judg(?:e)?ment|decision)|life[- ]or[- ]death|critical decision|ethical dilemma|legal advice|medical advice|chest pain|difficulty breathing|shortness of breath|can't breathe|cannot breathe|heart attack|stroke|unconscious|severe bleeding)"
+)
 
 
 @dataclass
