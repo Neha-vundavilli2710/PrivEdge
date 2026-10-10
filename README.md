@@ -378,3 +378,40 @@ PostgreSQL, Docker, HTTPS production deployment, full MFA, rate limiting, vector
 | Security | [security-documentation](docs/security/security-documentation.md) |
 | Screenshots | [screenshots checklist](docs/screenshots/README.md) |
 | Project | [limitations](docs/project/limitations.md) · [future-enhancements](docs/project/future-enhancements.md) |
+
+
+## 📸 Screenshots
+
+Explore the PrivEdge interface and its core features below.
+
+### 1. Landing Page and Authentication
+
+| Landing Page | Login |
+|---|---|
+| ![PrivEdge Landing Page](docs/screenshots/landing-page.png) | ![PrivEdge Login](docs/screenshots/login.png) |
+
+### 2. AI Assistant and Intelligent Routing
+
+| AI Chatbot | Edge AI | Cloud AI |
+|---|---|---|
+| ![AI Chatbot](docs/screenshots/chatbot.png) | ![Edge AI](docs/screenshots/edge-ai.png) | ![Cloud AI](docs/screenshots/cloud-ai.png) |
+
+### 3. Human Review and Knowledge Base
+
+| Human Review | Knowledge Base |
+|---|---|
+| ![Human Review](docs/screenshots/human-review.png) | ![Knowledge Base](docs/screenshots/knowledge-base.png) |
+
+### 4. User Analytics
+
+![User Insights](docs/screenshots/user-insights.png)
+
+### 5. Reviewer and Administrator Dashboards
+
+| Reviewer Dashboard | Admin Dashboard |
+|---|---|
+| ![Reviewer Dashboard](docs/screenshots/reviewer-dashboard.png) | ![Admin Dashboard](docs/screenshots/admin-dashboard.png) |
+
+### 6. System Monitoring
+
+![System Monitoring](docs/screenshots/system-monitoring.png)
