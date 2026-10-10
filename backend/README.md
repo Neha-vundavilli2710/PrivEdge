@@ -178,7 +178,7 @@ The application supports three main authenticated roles:
 - **REVIEWER**
 - **ADMIN**
 
-Development-only seeded-account shortcuts are available on the login page when running the frontend in development mode.
+
 
 ---
 
@@ -189,7 +189,7 @@ For the complete local PrivEdge system, use three terminals.
 ### Terminal 1 — Frontend
 
 ```powershell
-cd C:\Users\HP\OneDrive\Desktop\PrivEdge-steps1-5\frontend
+cd C:\Users\HP\OneDrive\Desktop\PrivEdge\frontend
 npm run dev
 ```
 
@@ -202,7 +202,7 @@ http://localhost:5173
 ### Terminal 2 — Backend
 
 ```powershell
-cd C:\Users\HP\OneDrive\Desktop\PrivEdge-steps1-5\backend
+cd C:\Users\HP\OneDrive\Desktop\PrivEdge\backend
 .\venv\Scripts\Activate.ps1
 python -m uvicorn app.main:app
 ```
@@ -410,7 +410,7 @@ The current ML evaluation includes:
 ### 5-fold grouped cross-validation
 
 ```text
-Mean accuracy: 96.1%
+Mean macro-F1: 96.1%
 Standard deviation: 4.3%
 ```
 
